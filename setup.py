@@ -1,160 +1,161 @@
 # setup.py
 from setuptools import setup, Extension
 from setuptools.command.build_ext import build_ext
-import sys, os, platform
+from Cython.Build import cythonize
 import numpy as np
+import sys, os, platform
+from pathlib import Path
 
-# ---- Platform helpers -------------------------------------------------------
 IS_DARWIN = sys.platform == "darwin"
 IS_LINUX  = sys.platform.startswith("linux")
+IS_WIN    = sys.platform.startswith("win")
 
-# Homebrew prefixes
-HB_PREFIXS = ["/opt/homebrew", "/usr/local"]  # M1/M2 vs Intel mac
-HB_INCLUDE = [p + "/include" for p in HB_PREFIXS]
-HB_LIB     = [p + "/lib" for p in HB_PREFIXS]
+# Where conda-forge puts headers/libs if you're in a conda env
+CONDA_PREFIX = os.environ.get("CONDA_PREFIX", "")
+CONDA_INC = [str(Path(CONDA_PREFIX) / "include")] if CONDA_PREFIX else []
+CONDA_LIB = [str(Path(CONDA_PREFIX) / "lib")] if CONDA_PREFIX else []
 
 def omp_compile_args():
-    if IS_DARWIN:
-        # Apple Clang: use -Xpreprocessor -fopenmp and include path to libomp headers
+    if IS_WIN:
+        # MSVC
+        return ["/openmp"]
+    elif IS_DARWIN:
+        # Apple Clang: needs the preprocessor flag
         return ["-Xpreprocessor", "-fopenmp"]
-    else:
+    else:  # Linux / other clang/gcc
         return ["-fopenmp"]
 
 def omp_link_args():
-    if IS_DARWIN:
-        # Link against libomp on macOS
+    if IS_WIN:
+        # MSVC links OpenMP automatically with /openmp
+        return []
+    elif IS_DARWIN:
+        # Link against libomp (from conda-forge llvm-openmp)
         return ["-lomp"]
     else:
         return ["-fopenmp"]
 
-def brew_paths_if_exist():
-    incs, libs = [], []
-    for p in HB_INCLUDE:
-        if os.path.isdir(p):
-            incs.append(p)
-    for p in HB_LIB:
-        if os.path.isdir(p):
-            libs.append(p)
-    return incs, libs
+# Common includes/libs
+include_dirs_common = [np.get_include()] + CONDA_INC
+library_dirs_common = CONDA_LIB
 
-brew_includes, brew_libs = brew_paths_if_exist()
+# If users set FFTW_DIR/VORO_DIR explicitly, respect them too
+def env_paths(var):
+    p = os.environ.get(var)
+    if not p: return [], []
+    inc = [str(Path(p) / "include")]
+    lib = [str(Path(p) / "lib")]
+    return inc, lib
 
-# Intel compiler bits are generally irrelevant on macOS; keep Linux branch
-intel = False
-try:
-    for line in open("newanalysis/voro/voro++-0.4.6/config.mk"):
-        if "icc" in line:
-            intel = True
-except FileNotFoundError:
-    pass
+fftw_inc_env, fftw_lib_env = env_paths("FFTW_DIR")
+voro_inc_env, voro_lib_env = env_paths("VORO_DIR")
 
-if intel and IS_LINUX:
-    intel_lib_dir = ['/opt/intel/composer_xe_2015/lib/intel64/']
-    intel_link_args = ['-lirc', '-limf']
-else:
-    intel_lib_dir = []
-    intel_link_args = []
+include_dirs_fftw = include_dirs_common + fftw_inc_env
+library_dirs_fftw = library_dirs_common + fftw_lib_env
 
-# Common include/library dirs
-numpy_inc = np.get_include()
+include_dirs_voro = include_dirs_common + voro_inc_env
+library_dirs_voro = library_dirs_common + voro_lib_env
 
-# If you installed FFTW and Voro++ yourself, keep your local paths first
-fftw_inc = ['newanalysis/helpers/fftw-3.3.4/install/include']
-fftw_lib = ['newanalysis/helpers/fftw-3.3.4/install/lib']
+extra_compile = omp_compile_args()
+extra_link    = omp_link_args()
 
-voro_inc = ['newanalysis/voro/voro++-0.4.6/install/include', 'newanalysis/voro']
-voro_lib = ['newanalysis/voro/voro++-0.4.6/install/lib']
-
-# On macOS, also search Homebrew prefixes for headers/libs
-extra_includes = [numpy_inc] + (brew_includes if IS_DARWIN else [])
-extra_lib_dirs = (brew_libs if IS_DARWIN else [])
-
-# Some macOS setups prefer dynamic libs; if your static .a files aren’t present, fall back to -l flags
-fftw_static = os.path.exists('newanalysis/helpers/fftw-3.3.4/install/lib/libfftw3.a') and not IS_DARWIN
-voro_static = os.path.exists('newanalysis/voro/voro++-0.4.6/install/lib/libvoro++.a')
-
+# ---- Extensions -------------------------------------------------------------
 extensions = [
     Extension(
-        'newanalysis.correl',
+        name="newanalysis.correl",
         sources=[
-            'newanalysis/helpers/correl.pyx',
-            'newanalysis/helpers/mod_Correl.cpp',
-            'newanalysis/helpers/BertholdHorn.cpp'
+            "newanalysis/helpers/correl.pyx",
+            "newanalysis/helpers/mod_Correl.cpp",
+            "newanalysis/helpers/BertholdHorn.cpp",
         ],
-        language='c++',
-        include_dirs=fftw_inc + [numpy_inc],
-        library_dirs=fftw_lib + extra_lib_dirs,
-        extra_objects=(['newanalysis/helpers/fftw-3.3.4/install/lib/libfftw3.a'] if fftw_static else []),
-        libraries=([] if fftw_static else ['fftw3']),
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
+        language="c++",
+        include_dirs=include_dirs_fftw,
+        library_dirs=library_dirs_fftw,
+        libraries=["fftw3"],              # from conda-forge fftw
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.helpers',
-        sources=['newanalysis/helpers/helpers.pyx', 'newanalysis/helpers/BertholdHorn.cpp'],
-        language='c++',
-        include_dirs=[numpy_inc] + extra_includes,
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
-    ),
-    Extension(
-        'newanalysis.miscellaneous',
+        name="newanalysis.helpers",
         sources=[
-            'newanalysis/helpers/miscellaneous.pyx',
-            'newanalysis/helpers/miscellaneous_implementation.cpp'
+            "newanalysis/helpers/helpers.pyx",
+            "newanalysis/helpers/BertholdHorn.cpp",
         ],
-        language='c++',
-        include_dirs=['newanalysis/helpers', numpy_inc] + extra_includes,
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
+        language="c++",
+        include_dirs=include_dirs_common,
+        library_dirs=library_dirs_common,
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.diffusion',
-        sources=['newanalysis/helpers/diffusion.pyx'],
-        language='c++',
-        include_dirs=[numpy_inc] + extra_includes,
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
+        name="newanalysis.miscellaneous",
+        sources=[
+            "newanalysis/helpers/miscellaneous.pyx",
+            "newanalysis/helpers/miscellaneous_implementation.cpp",
+        ],
+        language="c++",
+        include_dirs=include_dirs_common,
+        library_dirs=library_dirs_common,
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.unfold',
-        sources=['newanalysis/helpers/unfold.pyx', 'newanalysis/helpers/BertholdHorn.cpp'],
-        language='c++',
-        include_dirs=[numpy_inc] + extra_includes,
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
+        name="newanalysis.diffusion",
+        sources=["newanalysis/helpers/diffusion.pyx"],
+        language="c++",
+        include_dirs=include_dirs_common,
+        library_dirs=library_dirs_common,
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.voro',
-        sources=['newanalysis/voro/voro.pyx', 'newanalysis/voro/mod_voro.cpp'],
-        language='c++',
-        include_dirs=voro_inc + [numpy_inc] + extra_includes,
-        library_dirs=voro_lib + intel_lib_dir + extra_lib_dirs,
-        extra_objects=(['newanalysis/voro/voro++-0.4.6/install/lib/libvoro++.a'] if voro_static else []),
-        libraries=([] if voro_static else ['voro++']),
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args() + intel_link_args,
+        name="newanalysis.unfold",
+        sources=[
+            "newanalysis/helpers/unfold.pyx",
+            "newanalysis/helpers/BertholdHorn.cpp",
+        ],
+        language="c++",
+        include_dirs=include_dirs_common,
+        library_dirs=library_dirs_common,
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.gfunction',
-        sources=['newanalysis/gfunction/gfunction.pyx'],
-        language='c++',
-        include_dirs=[numpy_inc] + extra_includes,
-        extra_compile_args=omp_compile_args(),
-        extra_link_args=omp_link_args(),
+        name="newanalysis.voro",
+        sources=[
+            "newanalysis/voro/voro.pyx",
+            "newanalysis/voro/mod_voro.cpp",
+        ],
+        language="c++",
+        include_dirs=include_dirs_voro,
+        library_dirs=library_dirs_voro,
+        libraries=["voro++"],            # from conda-forge voro++
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
     Extension(
-        'newanalysis.functions',
-        sources=['newanalysis/functions/py_functions.py'],
-        language='c++'
+        name="newanalysis.gfunction",
+        sources=["newanalysis/gfunction/gfunction.pyx"],
+        language="c++",
+        include_dirs=include_dirs_common,
+        library_dirs=library_dirs_common,
+        extra_compile_args=extra_compile,
+        extra_link_args=extra_link,
     ),
+    # NOTE: no compiled extension for newanalysis.functions anymore.
 ]
 
+ext_modules = cythonize(
+    extensions,
+    language_level=3,
+    compiler_directives={"boundscheck": False, "wraparound": False},
+)
+
 setup(
-    name='newanalysis',
-    version='0.1dev',
-    license='None',
-    ext_modules=extensions,
-    cmdclass={'build_ext': build_ext},
+    name="newanalysis",
+    version="0.1dev",
+    license="None",
+    ext_modules=ext_modules,
+    cmdclass={"build_ext": build_ext},
 )
 
