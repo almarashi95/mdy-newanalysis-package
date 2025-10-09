@@ -9,7 +9,7 @@ dependencies:
   - wheel
   - cython>=3.0.10
   - numpy>=2.2
-  - fftw>=3.3
+  - fftw=3.3.4
   - voro++=0.4.6
   - vs2019_win-64       # MSVC toolchain meta-package
 

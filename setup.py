@@ -1,5 +1,7 @@
 # setup.py
-from setuptools import setup, Extension
+
+from setuptools import setup, Extension, find_packages
+
 from setuptools.command.build_ext import build_ext
 from Cython.Build import cythonize
 import numpy as np
@@ -150,11 +152,11 @@ ext_modules = cythonize(
     language_level=3,
     compiler_directives={"boundscheck": False, "wraparound": False},
 )
-
 setup(
     name="newanalysis",
     version="0.1dev",
     license="None",
+    packages=find_packages(include=["newanalysis", "newanalysis.*"]),
     ext_modules=ext_modules,
     cmdclass={"build_ext": build_ext},
 )

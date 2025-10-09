@@ -4,11 +4,11 @@
 {
     "distutils": {
         "depends": [
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h",
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayscalars.h",
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h",
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h",
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include/numpy/ufuncobject.h",
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayobject.h",
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include/numpy/arrayscalars.h",
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h",
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h",
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include/numpy/ufuncobject.h",
             "newanalysis/helpers/BertholdHorn.h"
         ],
         "extra_compile_args": [
@@ -20,11 +20,13 @@
         ],
         "include_dirs": [
             "newanalysis/helpers",
-            "/Users/msa4001/miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/_core/include",
-            "/opt/homebrew/include",
-            "/usr/local/include"
+            "/private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/_core/include",
+            "/Users/msa4001/miniconda3/envs/newanalysis-pre_comp/include"
         ],
         "language": "c++",
+        "library_dirs": [
+            "/Users/msa4001/miniconda3/envs/newanalysis-pre_comp/lib"
+        ],
         "name": "newanalysis.helpers",
         "sources": [
             "newanalysis/helpers/helpers.pyx",
@@ -1410,7 +1412,7 @@ static const char *__pyx_filename;
 static const char* const __pyx_f[] = {
   "newanalysis/helpers/helpers.pyx",
   "<stringsource>",
-  "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd",
+  "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd",
   "cpython/type.pxd",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -1633,7 +1635,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":743
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":743
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1642,7 +1644,7 @@ typedef struct {
 */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":744
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":744
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1651,7 +1653,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
 */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":745
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":745
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1660,7 +1662,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
 */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":746
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1669,7 +1671,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
 */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":748
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":748
  * ctypedef npy_int64      int64_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1678,7 +1680,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":749
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":749
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1687,7 +1689,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":750
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":750
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1696,7 +1698,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":751
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":751
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1705,7 +1707,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":753
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":753
  * ctypedef npy_uint64     uint64_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1714,7 +1716,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":754
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":754
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1723,7 +1725,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
 */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":761
  * ctypedef double complex complex128_t
  * 
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1732,7 +1734,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
 */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":762
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":762
  * 
  * ctypedef npy_longlong   longlong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1741,7 +1743,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":764
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1750,7 +1752,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":765
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1759,7 +1761,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
 */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1768,7 +1770,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1777,7 +1779,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
 */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -17953,7 +17955,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":242
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":242
  *         cdef int type_num
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17964,7 +17966,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":244
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":244
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:
  *             return PyDataType_ELSIZE(self)             # <<<<<<<<<<<<<<
@@ -17974,7 +17976,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   __pyx_r = PyDataType_ELSIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":242
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":242
  *         cdef int type_num
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17987,7 +17989,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":246
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17998,7 +18000,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":248
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":248
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:
  *             return PyDataType_ALIGNMENT(self)             # <<<<<<<<<<<<<<
@@ -18008,7 +18010,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   __pyx_r = PyDataType_ALIGNMENT(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":246
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18021,7 +18023,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":252
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -18035,7 +18037,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("fields", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":254
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":254
  *         @property
  *         cdef inline object fields(self):
  *             return <object>PyDataType_FIELDS(self)             # <<<<<<<<<<<<<<
@@ -18048,7 +18050,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   __pyx_r = ((PyObject *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":252
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -18063,7 +18065,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":256
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":256
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18077,7 +18079,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("names", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":258
  *         @property
  *         cdef inline tuple names(self):
  *             return <tuple>PyDataType_NAMES(self)             # <<<<<<<<<<<<<<
@@ -18090,7 +18092,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   __pyx_r = ((PyObject*)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":256
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":256
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18105,7 +18107,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":263
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":263
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -18116,7 +18118,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
 static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarray(PyArray_Descr *__pyx_v_self) {
   PyArray_ArrayDescr *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":265
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":265
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:
  *             return PyDataType_SUBARRAY(self)             # <<<<<<<<<<<<<<
@@ -18126,7 +18128,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   __pyx_r = PyDataType_SUBARRAY(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":263
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":263
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -18139,7 +18141,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":267
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":267
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18150,7 +18152,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
 static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr *__pyx_v_self) {
   npy_uint64 __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":270
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":270
  *         cdef inline npy_uint64 flags(self) noexcept nogil:
  *             """The data types flags."""
  *             return PyDataType_FLAGS(self)             # <<<<<<<<<<<<<<
@@ -18160,7 +18162,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   __pyx_r = PyDataType_FLAGS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":267
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":267
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18173,7 +18175,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":279
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18184,7 +18186,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":282
  *         cdef inline int numiter(self) noexcept nogil:
  *             """The number of arrays that need to be broadcast to the same shape."""
  *             return PyArray_MultiIter_NUMITER(self)             # <<<<<<<<<<<<<<
@@ -18194,7 +18196,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   __pyx_r = PyArray_MultiIter_NUMITER(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":279
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18207,7 +18209,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":284
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":284
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18218,7 +18220,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":287
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":287
  *         cdef inline npy_intp size(self) noexcept nogil:
  *             """The total broadcasted size."""
  *             return PyArray_MultiIter_SIZE(self)             # <<<<<<<<<<<<<<
@@ -18228,7 +18230,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":284
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":284
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18241,7 +18243,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":289
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":289
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18252,7 +18254,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":292
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":292
  *         cdef inline npy_intp index(self) noexcept nogil:
  *             """The current (1-d) index into the broadcasted result."""
  *             return PyArray_MultiIter_INDEX(self)             # <<<<<<<<<<<<<<
@@ -18262,7 +18264,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   __pyx_r = PyArray_MultiIter_INDEX(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":289
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":289
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18275,7 +18277,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":294
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":294
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18286,7 +18288,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":297
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":297
  *         cdef inline int nd(self) noexcept nogil:
  *             """The number of dimensions in the broadcasted result."""
  *             return PyArray_MultiIter_NDIM(self)             # <<<<<<<<<<<<<<
@@ -18296,7 +18298,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   __pyx_r = PyArray_MultiIter_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":294
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":294
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18309,7 +18311,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":299
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":299
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18320,7 +18322,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":302
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":302
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:
  *             """The shape of the broadcasted result."""
  *             return PyArray_MultiIter_DIMS(self)             # <<<<<<<<<<<<<<
@@ -18330,7 +18332,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   __pyx_r = PyArray_MultiIter_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":299
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":299
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18343,7 +18345,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":304
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":304
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18354,7 +18356,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
 static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiIterObject *__pyx_v_self) {
   void **__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":308
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":308
  *             """An array of iterator objects that holds the iterators for the arrays to be broadcast together.
  *             On return, the iterators are adjusted for broadcasting."""
  *             return PyArray_MultiIter_ITERS(self)             # <<<<<<<<<<<<<<
@@ -18364,7 +18366,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_ITERS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":304
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":304
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18377,7 +18379,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":322
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":322
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18388,7 +18390,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":326
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":326
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -18398,7 +18400,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":322
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":322
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18411,7 +18413,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":328
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":328
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18425,7 +18427,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":332
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":332
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -18438,7 +18440,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":328
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":328
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18453,7 +18455,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":334
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":334
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18464,7 +18466,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":338
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":338
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -18474,7 +18476,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":334
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":334
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18487,7 +18489,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":340
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":340
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18498,7 +18500,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":346
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":346
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -18508,7 +18510,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":340
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":340
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18521,7 +18523,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":348
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":348
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18532,7 +18534,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":353
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":353
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -18542,7 +18544,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":348
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":348
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18555,7 +18557,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":355
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":355
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18566,7 +18568,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":359
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":359
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -18576,7 +18578,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":355
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":355
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18589,7 +18591,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":361
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":361
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18600,7 +18602,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":368
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":368
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -18610,7 +18612,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":361
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":361
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18623,7 +18625,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":776
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":776
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18640,7 +18642,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -18654,7 +18656,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":776
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":776
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18673,7 +18675,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":779
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -18690,7 +18692,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -18704,7 +18706,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":779
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -18723,7 +18725,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":782
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -18740,7 +18742,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -18754,7 +18756,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":782
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -18773,7 +18775,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":785
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -18790,7 +18792,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -18804,7 +18806,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":785
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -18823,7 +18825,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":788
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -18840,7 +18842,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -18854,7 +18856,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":788
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -18873,7 +18875,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":791
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":791
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -18888,7 +18890,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   PyObject *__pyx_t_2;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":792
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -18898,7 +18900,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":793
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -18911,7 +18913,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_t_2);
     goto __pyx_L0;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":792
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":792
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -18920,7 +18922,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 */
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":795
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":795
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -18934,7 +18936,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":791
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":791
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -18949,7 +18951,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":994
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":994
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -18963,7 +18965,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":995
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -18972,7 +18974,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":996
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -18981,7 +18983,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 996, __pyx_L1_error)
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":994
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":994
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -18996,7 +18998,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_L0:;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":998
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":998
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19011,7 +19013,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":999
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19020,7 +19022,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1000
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1000
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19030,7 +19032,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1001
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1001
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19041,7 +19043,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1000
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1000
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19050,7 +19052,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1002
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19062,7 +19064,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":998
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":998
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19077,7 +19079,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1006
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1006
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19104,7 +19106,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19120,7 +19122,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1008
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1008
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -19129,7 +19131,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
 */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1008, __pyx_L3_error)
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19143,7 +19145,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1009
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1009
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19158,7 +19160,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1010
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1010
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy._core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -19183,7 +19185,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1007
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19199,7 +19201,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1006
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1006
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19224,7 +19226,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1012
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1012
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19251,7 +19253,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19267,7 +19269,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1014
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1014
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -19276,7 +19278,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1014, __pyx_L3_error)
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19290,7 +19292,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1015
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1015
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19305,7 +19307,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1016
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1016
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -19330,7 +19332,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1013
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19346,7 +19348,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1012
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1012
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19371,7 +19373,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1018
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1018
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19398,7 +19400,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19414,7 +19416,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1020
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1020
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -19423,7 +19425,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1020, __pyx_L3_error)
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19437,7 +19439,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1021
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1021
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19452,7 +19454,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1022
+      /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1022
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -19477,7 +19479,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
+    /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1019
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19493,7 +19495,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1018
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1018
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19518,7 +19520,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1025
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1025
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -19529,7 +19531,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1037
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1037
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -19539,7 +19541,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1025
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1025
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -19552,7 +19554,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1040
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1040
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -19563,7 +19565,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1052
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1052
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -19573,7 +19575,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1040
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1040
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -19586,7 +19588,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1055
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1055
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19597,7 +19599,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1062
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1062
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19607,7 +19609,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1055
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1055
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19620,7 +19622,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1065
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1065
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19631,7 +19633,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1069
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1069
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19641,7 +19643,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1065
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1065
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19654,7 +19656,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1072
+/* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1072
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19665,7 +19667,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1076
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1076
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -19675,7 +19677,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../miniconda3/envs/irspectrum/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1072
+  /* "../../../../../private/var/folders/2p/zvqddxgd17n16hx3pjs_47bw0000gq/T/pip-build-env-ur_jq66h/overlay/lib/python3.13/site-packages/numpy/__init__.cython-30.pxd":1072
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -20331,7 +20333,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_2velcomByResidue(CYTHON_UNUSED 
  *             for k in range(3):
 */
                             __pyx_t_11 = __pyx_v_i;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_apr.shape[0];
                             __pyx_t_12 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_11 * __pyx_v_apr.strides[0]) )));
                             __pyx_t_13 = __pyx_t_12;
                             for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
@@ -20345,7 +20346,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_2velcomByResidue(CYTHON_UNUSED 
  *                 velcom[i,k] += vels[actr,k] * masses[actr]
 */
                               __pyx_t_11 = __pyx_v_i;
-                              if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_rfa.shape[0];
                               __pyx_v_actr = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_11 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_j);
 
                               /* "newanalysis/helpers/helpers.pyx":62
@@ -20367,14 +20367,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_2velcomByResidue(CYTHON_UNUSED 
 */
                                 __pyx_t_11 = __pyx_v_actr;
                                 __pyx_t_16 = __pyx_v_k;
-                                if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_vels.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_vels.shape[1];
                                 __pyx_t_17 = __pyx_v_actr;
-                                if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_masses.shape[0];
                                 __pyx_t_18 = __pyx_v_i;
                                 __pyx_t_19 = __pyx_v_k;
-                                if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_velcom.shape[0];
-                                if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_velcom.shape[1];
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_velcom.data + __pyx_t_18 * __pyx_v_velcom.strides[0]) ) + __pyx_t_19 * __pyx_v_velcom.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vels.data + __pyx_t_11 * __pyx_v_vels.strides[0]) ) + __pyx_t_16 * __pyx_v_vels.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_17 * __pyx_v_masses.strides[0]) ))));
                               }
 
@@ -20386,7 +20381,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_2velcomByResidue(CYTHON_UNUSED 
  *             velcom[i,k] /= tot_mass
 */
                               __pyx_t_17 = __pyx_v_actr;
-                              if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_masses.shape[0];
                               __pyx_v_tot_mass = (__pyx_v_tot_mass + (*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_17 * __pyx_v_masses.strides[0]) ))));
                             }
 
@@ -20409,8 +20403,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_2velcomByResidue(CYTHON_UNUSED 
 */
                               __pyx_t_17 = __pyx_v_i;
                               __pyx_t_16 = __pyx_v_k;
-                              if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_velcom.shape[0];
-                              if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_velcom.shape[1];
                               *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_velcom.data + __pyx_t_17 * __pyx_v_velcom.strides[0]) ) + __pyx_t_16 * __pyx_v_velcom.strides[1]) )) /= __pyx_v_tot_mass;
                             }
                         }
@@ -20782,7 +20774,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_4comByResidue(CYTHON_UNUSED PyO
  *             for k in range(3):
 */
                             __pyx_t_11 = __pyx_v_i;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_apr.shape[0];
                             __pyx_t_12 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_11 * __pyx_v_apr.strides[0]) )));
                             __pyx_t_13 = __pyx_t_12;
                             for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
@@ -20796,7 +20787,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_4comByResidue(CYTHON_UNUSED PyO
  *                 com[i,k] += coor[actr,k] * masses[actr]
 */
                               __pyx_t_11 = __pyx_v_i;
-                              if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_rfa.shape[0];
                               __pyx_v_actr = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_11 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_j);
 
                               /* "newanalysis/helpers/helpers.pyx":92
@@ -20818,14 +20808,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_4comByResidue(CYTHON_UNUSED PyO
 */
                                 __pyx_t_11 = __pyx_v_actr;
                                 __pyx_t_16 = __pyx_v_k;
-                                if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
                                 __pyx_t_17 = __pyx_v_actr;
-                                if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_masses.shape[0];
                                 __pyx_t_18 = __pyx_v_i;
                                 __pyx_t_19 = __pyx_v_k;
-                                if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_com.shape[0];
-                                if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_com.shape[1];
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_18 * __pyx_v_com.strides[0]) ) + __pyx_t_19 * __pyx_v_com.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_11 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_17 * __pyx_v_masses.strides[0]) ))));
                               }
 
@@ -20837,7 +20822,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_4comByResidue(CYTHON_UNUSED PyO
  *             com[i,k] /= tot_mass
 */
                               __pyx_t_17 = __pyx_v_actr;
-                              if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_masses.shape[0];
                               __pyx_v_tot_mass = (__pyx_v_tot_mass + (*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_17 * __pyx_v_masses.strides[0]) ))));
                             }
 
@@ -20860,8 +20844,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_4comByResidue(CYTHON_UNUSED PyO
 */
                               __pyx_t_17 = __pyx_v_i;
                               __pyx_t_16 = __pyx_v_k;
-                              if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_com.shape[0];
-                              if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_com.shape[1];
                               *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_17 * __pyx_v_com.strides[0]) ) + __pyx_t_16 * __pyx_v_com.strides[1]) )) /= __pyx_v_tot_mass;
                             }
                         }
@@ -21245,7 +21227,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_6dipByResidue(CYTHON_UNUSED PyO
  *             for k in range(3):
 */
                             __pyx_t_11 = __pyx_v_i;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_apr.shape[0];
                             __pyx_t_12 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_11 * __pyx_v_apr.strides[0]) )));
                             __pyx_t_13 = __pyx_t_12;
                             for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
@@ -21259,7 +21240,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_6dipByResidue(CYTHON_UNUSED PyO
  *                 dip[i,k] += (coor[actr,k] - com[i,k]) * charges[actr]
 */
                               __pyx_t_11 = __pyx_v_i;
-                              if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_rfa.shape[0];
                               __pyx_v_actr = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_11 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_j);
 
                               /* "newanalysis/helpers/helpers.pyx":120
@@ -21281,18 +21261,11 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_6dipByResidue(CYTHON_UNUSED PyO
 */
                                 __pyx_t_11 = __pyx_v_actr;
                                 __pyx_t_16 = __pyx_v_k;
-                                if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
                                 __pyx_t_17 = __pyx_v_i;
                                 __pyx_t_18 = __pyx_v_k;
-                                if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_com.shape[0];
-                                if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_com.shape[1];
                                 __pyx_t_19 = __pyx_v_actr;
-                                if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
                                 __pyx_t_20 = __pyx_v_i;
                                 __pyx_t_21 = __pyx_v_k;
-                                if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_dip.shape[0];
-                                if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_dip.shape[1];
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_20 * __pyx_v_dip.strides[0]) ) + __pyx_t_21 * __pyx_v_dip.strides[1]) )) += (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_11 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_17 * __pyx_v_com.strides[0]) ) + __pyx_t_18 * __pyx_v_com.strides[1]) )))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))));
                               }
                             }
@@ -21590,12 +21563,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_8dipoleMomentNeutralSelection(C
 */
     __pyx_t_10 = __pyx_v_i;
     __pyx_t_11 = 0;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
     __pyx_t_12 = __pyx_v_i;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_charges.shape[0];
     __pyx_t_13 = 0;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_dip.shape[0];
     *((double *) ( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_13 * __pyx_v_dip.strides[0]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_12 * __pyx_v_charges.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":133
@@ -21607,12 +21576,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_8dipoleMomentNeutralSelection(C
 */
     __pyx_t_12 = __pyx_v_i;
     __pyx_t_11 = 1;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_charges.shape[0];
     __pyx_t_13 = 1;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_dip.shape[0];
     *((double *) ( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_13 * __pyx_v_dip.strides[0]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_12 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_10 * __pyx_v_charges.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":134
@@ -21624,12 +21589,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_8dipoleMomentNeutralSelection(C
 */
     __pyx_t_10 = __pyx_v_i;
     __pyx_t_11 = 2;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
     __pyx_t_12 = __pyx_v_i;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_charges.shape[0];
     __pyx_t_13 = 2;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_dip.shape[0];
     *((double *) ( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_13 * __pyx_v_dip.strides[0]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_12 * __pyx_v_charges.strides[0]) ))));
   }
 
@@ -21983,7 +21944,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_10collectiveDipoleMomentWaterSh
  *                     dip[shell,0] += coor[i*3+j,0] * charges[i*3+j]
 */
                               __pyx_t_15 = __pyx_v_i;
-                              if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_ds.shape[0];
                               __pyx_t_16 = ((*((int *) ( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_15 * __pyx_v_ds.strides[0]) ))) == (__pyx_v_shell + 1));
                               if (__pyx_t_16) {
 
@@ -22006,14 +21966,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_10collectiveDipoleMomentWaterSh
 */
                                   __pyx_t_15 = ((__pyx_v_i * 3) + __pyx_v_j);
                                   __pyx_t_18 = 0;
-                                  if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                                  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
                                   __pyx_t_19 = ((__pyx_v_i * 3) + __pyx_v_j);
-                                  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
                                   __pyx_t_20 = __pyx_v_shell;
                                   __pyx_t_21 = 0;
-                                  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_dip.shape[0];
-                                  if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_dip.shape[1];
                                   *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_20 * __pyx_v_dip.strides[0]) ) + __pyx_t_21 * __pyx_v_dip.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))));
 
                                   /* "newanalysis/helpers/helpers.pyx":152
@@ -22025,14 +21980,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_10collectiveDipoleMomentWaterSh
 */
                                   __pyx_t_19 = ((__pyx_v_i * 3) + __pyx_v_j);
                                   __pyx_t_18 = 1;
-                                  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-                                  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
                                   __pyx_t_15 = ((__pyx_v_i * 3) + __pyx_v_j);
-                                  if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_charges.shape[0];
                                   __pyx_t_21 = __pyx_v_shell;
                                   __pyx_t_20 = 1;
-                                  if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_dip.shape[0];
-                                  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_dip.shape[1];
                                   *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_21 * __pyx_v_dip.strides[0]) ) + __pyx_t_20 * __pyx_v_dip.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_15 * __pyx_v_charges.strides[0]) ))));
 
                                   /* "newanalysis/helpers/helpers.pyx":153
@@ -22044,14 +21994,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_10collectiveDipoleMomentWaterSh
 */
                                   __pyx_t_15 = ((__pyx_v_i * 3) + __pyx_v_j);
                                   __pyx_t_18 = 2;
-                                  if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                                  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
                                   __pyx_t_19 = ((__pyx_v_i * 3) + __pyx_v_j);
-                                  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
                                   __pyx_t_20 = __pyx_v_shell;
                                   __pyx_t_21 = 2;
-                                  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_dip.shape[0];
-                                  if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_dip.shape[1];
                                   *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip.data + __pyx_t_20 * __pyx_v_dip.strides[0]) ) + __pyx_t_21 * __pyx_v_dip.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))));
                                 }
 
@@ -22330,14 +22275,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_12atomicCurrent(CYTHON_UNUSED P
 */
     __pyx_t_5 = __pyx_v_i;
     __pyx_t_6 = 0;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_vel.shape[0];
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_vel.shape[1];
     __pyx_t_7 = __pyx_v_i;
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_charges.shape[0];
     __pyx_t_8 = __pyx_v_ctr;
     __pyx_t_9 = 0;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_result.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_result.shape[1];
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_result.data + __pyx_t_8 * __pyx_v_result.strides[0]) ) + __pyx_t_9 * __pyx_v_result.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_5 * __pyx_v_vel.strides[0]) ) + __pyx_t_6 * __pyx_v_vel.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_7 * __pyx_v_charges.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":164
@@ -22349,14 +22289,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_12atomicCurrent(CYTHON_UNUSED P
 */
     __pyx_t_7 = __pyx_v_i;
     __pyx_t_6 = 1;
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_vel.shape[0];
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_vel.shape[1];
     __pyx_t_5 = __pyx_v_i;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_charges.shape[0];
     __pyx_t_9 = __pyx_v_ctr;
     __pyx_t_8 = 1;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_result.shape[0];
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_result.shape[1];
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_result.data + __pyx_t_9 * __pyx_v_result.strides[0]) ) + __pyx_t_8 * __pyx_v_result.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_7 * __pyx_v_vel.strides[0]) ) + __pyx_t_6 * __pyx_v_vel.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_5 * __pyx_v_charges.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":165
@@ -22368,14 +22303,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_12atomicCurrent(CYTHON_UNUSED P
 */
     __pyx_t_5 = __pyx_v_i;
     __pyx_t_6 = 2;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_vel.shape[0];
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_vel.shape[1];
     __pyx_t_7 = __pyx_v_i;
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_charges.shape[0];
     __pyx_t_8 = __pyx_v_ctr;
     __pyx_t_9 = 2;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_result.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_result.shape[1];
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_result.data + __pyx_t_8 * __pyx_v_result.strides[0]) ) + __pyx_t_9 * __pyx_v_result.strides[1]) )) += ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_5 * __pyx_v_vel.strides[0]) ) + __pyx_t_6 * __pyx_v_vel.strides[1]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_7 * __pyx_v_charges.strides[0]) ))));
   }
 
@@ -22670,8 +22600,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
     __pyx_t_8 = __pyx_v_isolute;
     __pyx_t_9 = __pyx_v_j;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_com.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_com.shape[1];
     (__pyx_v_comslt[__pyx_v_j]) = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_8 * __pyx_v_com.strides[0]) ) + __pyx_t_9 * __pyx_v_com.strides[1]) )));
   }
 
@@ -22706,8 +22634,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
       __pyx_t_9 = __pyx_v_i;
       __pyx_t_8 = __pyx_v_j;
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_com.shape[0];
-      if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_com.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_9 * __pyx_v_com.strides[0]) ) + __pyx_t_8 * __pyx_v_com.strides[1]) )) -= (__pyx_v_comslt[__pyx_v_j]);
 
       /* "newanalysis/helpers/helpers.pyx":198
@@ -22719,8 +22645,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
       __pyx_t_8 = __pyx_v_i;
       __pyx_t_9 = __pyx_v_j;
-      if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_com.shape[0];
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_com.shape[1];
       __pyx_t_13 = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_8 * __pyx_v_com.strides[0]) ) + __pyx_t_9 * __pyx_v_com.strides[1]) )));
       if (unlikely(__pyx_v_boxl == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -22737,8 +22661,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
       __pyx_t_9 = __pyx_v_i;
       __pyx_t_8 = __pyx_v_j;
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_com.shape[0];
-      if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_com.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_9 * __pyx_v_com.strides[0]) ) + __pyx_t_8 * __pyx_v_com.strides[1]) )) -= (__pyx_v_shift[__pyx_v_j]);
     }
 
@@ -22750,12 +22672,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
  *                 coor[k,j] -= comslt[j] - shift[j]
 */
     __pyx_t_8 = __pyx_v_i;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_rfa.shape[0];
     __pyx_t_9 = __pyx_v_i;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_apr.shape[0];
     __pyx_t_12 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_8 * __pyx_v_rfa.strides[0]) ))) + (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_9 * __pyx_v_apr.strides[0]) ))));
     __pyx_t_9 = __pyx_v_i;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_rfa.shape[0];
     __pyx_t_14 = __pyx_t_12;
     for (__pyx_t_15 = (*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_9 * __pyx_v_rfa.strides[0]) ))); __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_k = __pyx_t_15;
@@ -22779,8 +22698,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
         __pyx_t_8 = __pyx_v_k;
         __pyx_t_17 = __pyx_v_j;
-        if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor.shape[0];
-        if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_coor.shape[1];
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_8 * __pyx_v_coor.strides[0]) ) + __pyx_t_17 * __pyx_v_coor.strides[1]) )) -= ((__pyx_v_comslt[__pyx_v_j]) - (__pyx_v_shift[__pyx_v_j]));
       }
     }
@@ -22795,16 +22712,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
   __pyx_t_9 = 0;
   __pyx_t_17 = 0;
-  if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_R.shape[0];
-  if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_R.shape[1];
   __pyx_t_8 = 0;
   __pyx_t_18 = 0;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coorA.shape[0];
-  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coorA.shape[1];
   __pyx_t_19 = 0;
   __pyx_t_20 = 0;
-  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coorB.shape[0];
-  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coorB.shape[1];
   GetRotation((&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_9 * __pyx_v_R.strides[0]) ) + __pyx_t_17 * __pyx_v_R.strides[1]) )))), (__pyx_v_coorA.shape[0]), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorA.data + __pyx_t_8 * __pyx_v_coorA.strides[0]) ) + __pyx_t_18 * __pyx_v_coorA.strides[1]) )))), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorB.data + __pyx_t_19 * __pyx_v_coorB.strides[0]) ) + __pyx_t_20 * __pyx_v_coorB.strides[1]) )))), 0);
 
   /* "newanalysis/helpers/helpers.pyx":207
@@ -22856,28 +22767,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_20 = 0;
                             __pyx_t_19 = 0;
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_R.shape[0];
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_R.shape[1];
                             __pyx_t_18 = __pyx_v_i;
                             __pyx_t_8 = 0;
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor.shape[1];
                             __pyx_t_17 = 0;
                             __pyx_t_9 = 1;
-                            if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_R.shape[0];
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_R.shape[1];
                             __pyx_t_24 = __pyx_v_i;
                             __pyx_t_25 = 1;
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_coor.shape[1];
                             __pyx_t_26 = 0;
                             __pyx_t_27 = 2;
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_R.shape[0];
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_R.shape[1];
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 2;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpx = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_20 * __pyx_v_R.strides[0]) ) + __pyx_t_19 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_18 * __pyx_v_coor.strides[0]) ) + __pyx_t_8 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_17 * __pyx_v_R.strides[0]) ) + __pyx_t_9 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_25 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_26 * __pyx_v_R.strides[0]) ) + __pyx_t_27 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":209
@@ -22889,28 +22788,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_29 = 1;
                             __pyx_t_28 = 0;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_R.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_R.shape[1];
                             __pyx_t_27 = __pyx_v_i;
                             __pyx_t_26 = 0;
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_coor.shape[1];
                             __pyx_t_25 = 1;
                             __pyx_t_24 = 1;
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_R.shape[0];
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_R.shape[1];
                             __pyx_t_9 = __pyx_v_i;
                             __pyx_t_17 = 1;
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_coor.shape[1];
                             __pyx_t_8 = 1;
                             __pyx_t_18 = 2;
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_R.shape[0];
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_R.shape[1];
                             __pyx_t_19 = __pyx_v_i;
                             __pyx_t_20 = 2;
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpy = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_29 * __pyx_v_R.strides[0]) ) + __pyx_t_28 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_27 * __pyx_v_coor.strides[0]) ) + __pyx_t_26 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_25 * __pyx_v_R.strides[0]) ) + __pyx_t_24 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_9 * __pyx_v_coor.strides[0]) ) + __pyx_t_17 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_8 * __pyx_v_R.strides[0]) ) + __pyx_t_18 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":210
@@ -22922,28 +22809,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_20 = 2;
                             __pyx_t_19 = 0;
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_R.shape[0];
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_R.shape[1];
                             __pyx_t_18 = __pyx_v_i;
                             __pyx_t_8 = 0;
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor.shape[1];
                             __pyx_t_17 = 2;
                             __pyx_t_9 = 1;
-                            if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_R.shape[0];
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_R.shape[1];
                             __pyx_t_24 = __pyx_v_i;
                             __pyx_t_25 = 1;
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_coor.shape[1];
                             __pyx_t_26 = 2;
                             __pyx_t_27 = 2;
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_R.shape[0];
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_R.shape[1];
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 2;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpz = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_20 * __pyx_v_R.strides[0]) ) + __pyx_t_19 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_18 * __pyx_v_coor.strides[0]) ) + __pyx_t_8 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_17 * __pyx_v_R.strides[0]) ) + __pyx_t_9 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_25 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_26 * __pyx_v_R.strides[0]) ) + __pyx_t_27 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":211
@@ -22955,8 +22830,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_29 = __pyx_v_i;
                             __pyx_t_28 = 0;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_29 * __pyx_v_coor.strides[0]) ) + __pyx_t_28 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpx;
 
                             /* "newanalysis/helpers/helpers.pyx":212
@@ -22968,8 +22841,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 1;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpy;
 
                             /* "newanalysis/helpers/helpers.pyx":213
@@ -22981,8 +22852,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_14centerOrientBox(CYTHON_UNUSED
 */
                             __pyx_t_29 = __pyx_v_i;
                             __pyx_t_28 = 2;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_29 * __pyx_v_coor.strides[0]) ) + __pyx_t_28 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpz;
                         }
                     }
@@ -23333,11 +23202,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
  *             com[i,j] -= shift[j]
 */
       __pyx_t_11 = __pyx_v_j;
-      if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_center.shape[0];
       __pyx_t_12 = __pyx_v_i;
       __pyx_t_13 = __pyx_v_j;
-      if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_com.shape[0];
-      if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_com.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_12 * __pyx_v_com.strides[0]) ) + __pyx_t_13 * __pyx_v_com.strides[1]) )) -= (*((double *) ( /* dim=0 */ (__pyx_v_center.data + __pyx_t_11 * __pyx_v_center.strides[0]) )));
 
       /* "newanalysis/helpers/helpers.pyx":241
@@ -23349,8 +23215,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
       __pyx_t_11 = __pyx_v_i;
       __pyx_t_13 = __pyx_v_j;
-      if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_com.shape[0];
-      if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_com.shape[1];
       __pyx_t_14 = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_11 * __pyx_v_com.strides[0]) ) + __pyx_t_13 * __pyx_v_com.strides[1]) )));
       if (unlikely(__pyx_v_boxl == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -23367,8 +23231,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
       __pyx_t_13 = __pyx_v_i;
       __pyx_t_11 = __pyx_v_j;
-      if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_com.shape[0];
-      if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_com.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_com.data + __pyx_t_13 * __pyx_v_com.strides[0]) ) + __pyx_t_11 * __pyx_v_com.strides[1]) )) -= (__pyx_v_shift[__pyx_v_j]);
     }
 
@@ -23380,12 +23242,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
  *                 coor[k,j] -= center[j] - shift[j]
 */
     __pyx_t_11 = __pyx_v_i;
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_rfa.shape[0];
     __pyx_t_13 = __pyx_v_i;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_apr.shape[0];
     __pyx_t_10 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_11 * __pyx_v_rfa.strides[0]) ))) + (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_13 * __pyx_v_apr.strides[0]) ))));
     __pyx_t_13 = __pyx_v_i;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_rfa.shape[0];
     __pyx_t_15 = __pyx_t_10;
     for (__pyx_t_16 = (*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_13 * __pyx_v_rfa.strides[0]) ))); __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
       __pyx_v_k = __pyx_t_16;
@@ -23408,11 +23267,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
  *     GetRotation(&R[0,0], coorA.shape[0], &coorA[0,0], &coorB[0,0], 0)
 */
         __pyx_t_11 = __pyx_v_j;
-        if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_center.shape[0];
         __pyx_t_12 = __pyx_v_k;
         __pyx_t_18 = __pyx_v_j;
-        if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[0];
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_12 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) )) -= ((*((double *) ( /* dim=0 */ (__pyx_v_center.data + __pyx_t_11 * __pyx_v_center.strides[0]) ))) - (__pyx_v_shift[__pyx_v_j]));
       }
     }
@@ -23427,16 +23283,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
   __pyx_t_13 = 0;
   __pyx_t_11 = 0;
-  if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_R.shape[0];
-  if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_R.shape[1];
   __pyx_t_18 = 0;
   __pyx_t_12 = 0;
-  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coorA.shape[0];
-  if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coorA.shape[1];
   __pyx_t_19 = 0;
   __pyx_t_20 = 0;
-  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coorB.shape[0];
-  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coorB.shape[1];
   GetRotation((&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_13 * __pyx_v_R.strides[0]) ) + __pyx_t_11 * __pyx_v_R.strides[1]) )))), (__pyx_v_coorA.shape[0]), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorA.data + __pyx_t_18 * __pyx_v_coorA.strides[0]) ) + __pyx_t_12 * __pyx_v_coorA.strides[1]) )))), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorB.data + __pyx_t_19 * __pyx_v_coorB.strides[0]) ) + __pyx_t_20 * __pyx_v_coorB.strides[1]) )))), 0);
 
   /* "newanalysis/helpers/helpers.pyx":250
@@ -23488,28 +23338,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_20 = 0;
                             __pyx_t_19 = 0;
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_R.shape[0];
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_R.shape[1];
                             __pyx_t_12 = __pyx_v_i;
                             __pyx_t_18 = 0;
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
                             __pyx_t_11 = 0;
                             __pyx_t_13 = 1;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_R.shape[0];
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_R.shape[1];
                             __pyx_t_24 = __pyx_v_i;
                             __pyx_t_25 = 1;
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_coor.shape[1];
                             __pyx_t_26 = 0;
                             __pyx_t_27 = 2;
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_R.shape[0];
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_R.shape[1];
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 2;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpx = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_20 * __pyx_v_R.strides[0]) ) + __pyx_t_19 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_12 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_11 * __pyx_v_R.strides[0]) ) + __pyx_t_13 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_25 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_26 * __pyx_v_R.strides[0]) ) + __pyx_t_27 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":252
@@ -23521,28 +23359,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_29 = 1;
                             __pyx_t_28 = 0;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_R.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_R.shape[1];
                             __pyx_t_27 = __pyx_v_i;
                             __pyx_t_26 = 0;
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_coor.shape[1];
                             __pyx_t_25 = 1;
                             __pyx_t_24 = 1;
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_R.shape[0];
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_R.shape[1];
                             __pyx_t_13 = __pyx_v_i;
                             __pyx_t_11 = 1;
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
                             __pyx_t_18 = 1;
                             __pyx_t_12 = 2;
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_R.shape[0];
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_R.shape[1];
                             __pyx_t_19 = __pyx_v_i;
                             __pyx_t_20 = 2;
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpy = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_29 * __pyx_v_R.strides[0]) ) + __pyx_t_28 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_27 * __pyx_v_coor.strides[0]) ) + __pyx_t_26 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_25 * __pyx_v_R.strides[0]) ) + __pyx_t_24 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_18 * __pyx_v_R.strides[0]) ) + __pyx_t_12 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":253
@@ -23554,28 +23380,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_20 = 2;
                             __pyx_t_19 = 0;
-                            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_R.shape[0];
-                            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_R.shape[1];
                             __pyx_t_12 = __pyx_v_i;
                             __pyx_t_18 = 0;
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
                             __pyx_t_11 = 2;
                             __pyx_t_13 = 1;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_R.shape[0];
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_R.shape[1];
                             __pyx_t_24 = __pyx_v_i;
                             __pyx_t_25 = 1;
-                            if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_coor.shape[1];
                             __pyx_t_26 = 2;
                             __pyx_t_27 = 2;
-                            if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_R.shape[0];
-                            if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_R.shape[1];
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 2;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpz = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_20 * __pyx_v_R.strides[0]) ) + __pyx_t_19 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_12 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_11 * __pyx_v_R.strides[0]) ) + __pyx_t_13 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_25 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_26 * __pyx_v_R.strides[0]) ) + __pyx_t_27 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":254
@@ -23587,8 +23401,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_29 = __pyx_v_i;
                             __pyx_t_28 = 0;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_29 * __pyx_v_coor.strides[0]) ) + __pyx_t_28 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpx;
 
                             /* "newanalysis/helpers/helpers.pyx":255
@@ -23600,8 +23412,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_28 = __pyx_v_i;
                             __pyx_t_29 = 1;
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_28 * __pyx_v_coor.strides[0]) ) + __pyx_t_29 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpy;
 
                             /* "newanalysis/helpers/helpers.pyx":256
@@ -23613,8 +23423,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_16centerToPointOrientBox(CYTHON
 */
                             __pyx_t_29 = __pyx_v_i;
                             __pyx_t_28 = 2;
-                            if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_29 * __pyx_v_coor.strides[0]) ) + __pyx_t_28 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpz;
                         }
                     }
@@ -23873,7 +23681,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 267, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -23920,7 +23727,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -23934,7 +23740,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *         for j in range(nmol):
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":277
@@ -23985,7 +23790,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_15 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_16 = __pyx_t_15;
       for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
@@ -23999,7 +23803,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":282
@@ -24011,12 +23814,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_18 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_20 = 0;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":283
@@ -24028,12 +23827,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
 */
         __pyx_t_20 = __pyx_v_idx;
         __pyx_t_19 = 1;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_18 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_18 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":284
@@ -24045,12 +23840,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_18 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_20 = 2;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":285
@@ -24070,16 +23861,13 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *     for i in range(apr[isolute]):
 */
         __pyx_t_20 = __pyx_v_idx;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
         __pyx_t_19 = __pyx_v_idx2;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
         __pyx_t_21 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
           __PYX_ERR(0, 286, __pyx_L1_error)
         }
         __pyx_t_19 = __pyx_v_i;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_epa.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_19 * __pyx_v_epa.strides[0]) )) += (__pyx_t_21 / __pyx_v_r);
       }
       __pyx_L5_continue:;
@@ -24094,7 +23882,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  * 
 */
   __pyx_t_19 = __pyx_v_isolute;
-  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_19 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -24108,7 +23895,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_18calcEnergyAA(CYTHON_UNUSED Py
  *     return energy * 1390.02
 */
     __pyx_t_19 = __pyx_v_i;
-    if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_epa.shape[0];
     __pyx_v_energy = (__pyx_v_energy + (*((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_19 * __pyx_v_epa.strides[0]) ))));
   }
 
@@ -24389,7 +24175,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
  *             dx = coor[idx2,0]
 */
     __pyx_t_5 = __pyx_v_j;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
     __pyx_t_6 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
     __pyx_t_7 = __pyx_t_6;
     for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
@@ -24403,7 +24188,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
  *             dy = coor[idx2,1]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
       __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
       /* "newanalysis/helpers/helpers.pyx":312
@@ -24415,8 +24199,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
 */
       __pyx_t_5 = __pyx_v_idx2;
       __pyx_t_9 = 0;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[1];
       __pyx_v_dx = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_9 * __pyx_v_coor.strides[1]) )));
 
       /* "newanalysis/helpers/helpers.pyx":313
@@ -24428,8 +24210,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
 */
       __pyx_t_9 = __pyx_v_idx2;
       __pyx_t_5 = 1;
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[0];
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
       __pyx_v_dy = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_9 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) )));
 
       /* "newanalysis/helpers/helpers.pyx":314
@@ -24441,8 +24221,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
 */
       __pyx_t_5 = __pyx_v_idx2;
       __pyx_t_9 = 2;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[1];
       __pyx_v_dz = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_9 * __pyx_v_coor.strides[1]) )));
 
       /* "newanalysis/helpers/helpers.pyx":315
@@ -24462,13 +24240,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_20calcEnergyMuA(CYTHON_UNUSED P
  *     return energy * 1390.02
 */
       __pyx_t_9 = __pyx_v_idx2;
-      if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_charges.shape[0];
       __pyx_t_5 = 0;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_mu_solute.shape[0];
       __pyx_t_10 = 1;
-      if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mu_solute.shape[0];
       __pyx_t_11 = 2;
-      if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_mu_solute.shape[0];
       __pyx_t_12 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_9 * __pyx_v_charges.strides[0]) ))) * ((((*((double *) ( /* dim=0 */ (__pyx_v_mu_solute.data + __pyx_t_5 * __pyx_v_mu_solute.strides[0]) ))) * __pyx_v_dx) + ((*((double *) ( /* dim=0 */ (__pyx_v_mu_solute.data + __pyx_t_10 * __pyx_v_mu_solute.strides[0]) ))) * __pyx_v_dy)) + ((*((double *) ( /* dim=0 */ (__pyx_v_mu_solute.data + __pyx_t_11 * __pyx_v_mu_solute.strides[0]) ))) * __pyx_v_dz)));
       __pyx_t_13 = ((__pyx_v_r * __pyx_v_r) * __pyx_v_r);
       if (unlikely(__pyx_t_13 == 0)) {
@@ -24742,7 +24516,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 330, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -24786,7 +24559,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 331, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -24842,7 +24614,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -24856,7 +24627,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *         for j in range(first,last+1):
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":342
@@ -24907,7 +24677,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_15 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_16 = __pyx_t_15;
       for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
@@ -24921,7 +24690,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":347
@@ -24933,12 +24701,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_18 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_20 = 0;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":348
@@ -24950,12 +24714,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
 */
         __pyx_t_20 = __pyx_v_idx;
         __pyx_t_19 = 1;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_18 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_18 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":349
@@ -24967,12 +24727,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_18 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_20 = 2;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_18 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":350
@@ -24992,9 +24748,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                 if drude[k]==1:
 */
         __pyx_t_20 = __pyx_v_idx;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
         __pyx_t_19 = __pyx_v_idx2;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
         __pyx_t_21 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -25010,7 +24764,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                 else:
 */
         __pyx_t_19 = __pyx_v_k;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_drude.shape[0];
         __pyx_t_14 = ((*((double *) ( /* dim=0 */ (__pyx_v_drude.data + __pyx_t_19 * __pyx_v_drude.strides[0]) ))) == 1.0);
         if (__pyx_t_14) {
 
@@ -25022,7 +24775,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                     epa_perm[i]+=qq
 */
           __pyx_t_19 = __pyx_v_i;
-          if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_epa_ind.shape[0];
           *((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_19 * __pyx_v_epa_ind.strides[0]) )) += __pyx_v_qq;
 
           /* "newanalysis/helpers/helpers.pyx":353
@@ -25044,7 +24796,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
 */
         /*else*/ {
           __pyx_t_19 = __pyx_v_i;
-          if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_epa_perm.shape[0];
           *((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_19 * __pyx_v_epa_perm.strides[0]) )) += __pyx_v_qq;
 
           /* "newanalysis/helpers/helpers.pyx":357
@@ -25055,7 +24806,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                         epa_ind[i] -= qq_diff
 */
           __pyx_t_19 = __pyx_v_j;
-          if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_apr.shape[0];
           __pyx_t_22 = (__pyx_v_k < ((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_19 * __pyx_v_apr.strides[0]) ))) - 1));
           if (__pyx_t_22) {
           } else {
@@ -25063,7 +24813,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
             goto __pyx_L12_bool_binop_done;
           }
           __pyx_t_19 = (__pyx_v_k + 1);
-          if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_drude.shape[0];
           __pyx_t_22 = ((*((double *) ( /* dim=0 */ (__pyx_v_drude.data + __pyx_t_19 * __pyx_v_drude.strides[0]) ))) == 1.0);
           __pyx_t_14 = __pyx_t_22;
           __pyx_L12_bool_binop_done:;
@@ -25077,9 +24826,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *                         epa_perm[i]+= qq_diff
 */
             __pyx_t_19 = __pyx_v_idx;
-            if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_charges.shape[0];
             __pyx_t_20 = (__pyx_v_idx2 + 1);
-            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
             __pyx_t_21 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_19 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))));
             if (unlikely(__pyx_v_r == 0)) {
               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -25095,7 +24842,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  * 
 */
             __pyx_t_20 = __pyx_v_i;
-            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_ind.shape[0];
             *((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_20 * __pyx_v_epa_ind.strides[0]) )) -= __pyx_v_qq_diff;
 
             /* "newanalysis/helpers/helpers.pyx":360
@@ -25106,7 +24852,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *     for i in range(apr[isolute]):
 */
             __pyx_t_20 = __pyx_v_i;
-            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_perm.shape[0];
             *((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_20 * __pyx_v_epa_perm.strides[0]) )) += __pyx_v_qq_diff;
 
             /* "newanalysis/helpers/helpers.pyx":357
@@ -25132,7 +24877,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *         energy_ind  += epa_ind[i]
 */
   __pyx_t_20 = __pyx_v_isolute;
-  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_20 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -25146,7 +24890,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  * 
 */
     __pyx_t_20 = __pyx_v_i;
-    if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_perm.shape[0];
     __pyx_v_energy_perm = (__pyx_v_energy_perm + (*((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_20 * __pyx_v_epa_perm.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":364
@@ -25157,7 +24900,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_22calcEnergyAApermind(CYTHON_UN
  *     return energy_perm * 1390.02 , energy_ind * 1390.02
 */
     __pyx_t_20 = __pyx_v_i;
-    if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_ind.shape[0];
     __pyx_v_energy_ind = (__pyx_v_energy_ind + (*((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_20 * __pyx_v_epa_ind.strides[0]) ))));
   }
 
@@ -25491,7 +25233,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 377, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -25791,7 +25532,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_12 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_13 = __pyx_t_12;
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
@@ -25805,7 +25545,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  * 
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":395
@@ -25865,7 +25604,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_19 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_20 = __pyx_t_19;
       for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
@@ -25879,7 +25617,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":401
@@ -25891,12 +25628,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_22 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[1];
         __pyx_t_23 = __pyx_v_idx2;
         __pyx_t_24 = 0;
-        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor.shape[0];
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_22 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_23 * __pyx_v_coor.strides[0]) ) + __pyx_t_24 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":402
@@ -25908,12 +25641,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
         __pyx_t_24 = __pyx_v_idx;
         __pyx_t_23 = 1;
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor.shape[1];
         __pyx_t_22 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_23 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_22 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":403
@@ -25925,12 +25654,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_22 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[1];
         __pyx_t_23 = __pyx_v_idx2;
         __pyx_t_24 = 2;
-        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor.shape[0];
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_22 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_23 * __pyx_v_coor.strides[0]) ) + __pyx_t_24 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":404
@@ -25950,9 +25675,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 epa[i] += tmp
 */
         __pyx_t_24 = __pyx_v_idx;
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_charges.shape[0];
         __pyx_t_23 = __pyx_v_idx2;
-        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_charges.shape[0];
         __pyx_t_11 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_24 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_23 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -25977,7 +25700,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *             store[j]+=tmp_ener
 */
         __pyx_t_23 = __pyx_v_i;
-        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_epa.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_23 * __pyx_v_epa.strides[0]) )) += __pyx_v_tmp;
       }
 
@@ -25989,7 +25711,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  * 
 */
       __pyx_t_23 = __pyx_v_j;
-      if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_store.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_store.data + __pyx_t_23 * __pyx_v_store.strides[0]) )) += __pyx_v_tmp_ener;
       __pyx_L5_continue:;
     }
@@ -26055,37 +25776,21 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 if squared_r_tre[k]<rtre**2:
 */
       __pyx_t_23 = __pyx_v_k;
-      if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_trehalose.shape[0];
       __pyx_t_24 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_23 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_22 = 0;
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coor.shape[0];
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[1];
       __pyx_t_5 = __pyx_v_j;
       __pyx_t_27 = 0;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coms.shape[0];
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coms.shape[1];
       __pyx_t_28 = __pyx_v_k;
-      if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_trehalose.shape[0];
       __pyx_t_29 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_28 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_30 = 1;
-      if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coor.shape[0];
-      if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_coor.shape[1];
       __pyx_t_31 = __pyx_v_j;
       __pyx_t_32 = 1;
-      if (__pyx_t_31 < 0) __pyx_t_31 += __pyx_v_coms.shape[0];
-      if (__pyx_t_32 < 0) __pyx_t_32 += __pyx_v_coms.shape[1];
       __pyx_t_33 = __pyx_v_k;
-      if (__pyx_t_33 < 0) __pyx_t_33 += __pyx_v_trehalose.shape[0];
       __pyx_t_34 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_33 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_35 = 2;
-      if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_coor.shape[0];
-      if (__pyx_t_35 < 0) __pyx_t_35 += __pyx_v_coor.shape[1];
       __pyx_t_36 = __pyx_v_j;
       __pyx_t_37 = 2;
-      if (__pyx_t_36 < 0) __pyx_t_36 += __pyx_v_coms.shape[0];
-      if (__pyx_t_37 < 0) __pyx_t_37 += __pyx_v_coms.shape[1];
       __pyx_t_38 = __pyx_v_k;
-      if (__pyx_t_38 < 0) __pyx_t_38 += __pyx_v_squared_r_tre.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_38 * __pyx_v_squared_r_tre.strides[0]) )) = ((pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_24 * __pyx_v_coor.strides[0]) ) + __pyx_t_22 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_5 * __pyx_v_coms.strides[0]) ) + __pyx_t_27 * __pyx_v_coms.strides[1]) )))), 2.0) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_29 * __pyx_v_coor.strides[0]) ) + __pyx_t_30 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_31 * __pyx_v_coms.strides[0]) ) + __pyx_t_32 * __pyx_v_coms.strides[1]) )))), 2.0)) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_34 * __pyx_v_coor.strides[0]) ) + __pyx_t_35 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_36 * __pyx_v_coms.strides[0]) ) + __pyx_t_37 * __pyx_v_coms.strides[1]) )))), 2.0));
 
       /* "newanalysis/helpers/helpers.pyx":417
@@ -26106,7 +25811,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *             else:
 */
         __pyx_t_37 = __pyx_v_k;
-        if (__pyx_t_37 < 0) __pyx_t_37 += __pyx_v_squared_r_tre.shape[0];
         __pyx_t_18 = ((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_37 * __pyx_v_squared_r_tre.strides[0]) ))) < pow(__pyx_v_rtre, 2.0));
         if (__pyx_t_18) {
 
@@ -26118,7 +25822,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 rtre=sqrt(squared_r_tre[k])
 */
           __pyx_t_37 = __pyx_v_k;
-          if (__pyx_t_37 < 0) __pyx_t_37 += __pyx_v_squared_r_tre.shape[0];
           __pyx_v_rtre = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_37 * __pyx_v_squared_r_tre.strides[0]) ))));
 
           /* "newanalysis/helpers/helpers.pyx":418
@@ -26149,7 +25852,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
       /*else*/ {
         __pyx_t_37 = __pyx_v_k;
-        if (__pyx_t_37 < 0) __pyx_t_37 += __pyx_v_squared_r_tre.shape[0];
         __pyx_v_rtre = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_37 * __pyx_v_squared_r_tre.strides[0]) ))));
       }
       __pyx_L15:;
@@ -26175,37 +25877,21 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 if squared_r_oxy[k]<roxy**2:
 */
       __pyx_t_37 = __pyx_v_k;
-      if (__pyx_t_37 < 0) __pyx_t_37 += __pyx_v_oxyquinol.shape[0];
       __pyx_t_36 = (*((int *) ( /* dim=0 */ (__pyx_v_oxyquinol.data + __pyx_t_37 * __pyx_v_oxyquinol.strides[0]) )));
       __pyx_t_33 = 0;
-      if (__pyx_t_36 < 0) __pyx_t_36 += __pyx_v_coor.shape[0];
-      if (__pyx_t_33 < 0) __pyx_t_33 += __pyx_v_coor.shape[1];
       __pyx_t_35 = __pyx_v_j;
       __pyx_t_34 = 0;
-      if (__pyx_t_35 < 0) __pyx_t_35 += __pyx_v_coms.shape[0];
-      if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_coms.shape[1];
       __pyx_t_32 = __pyx_v_k;
-      if (__pyx_t_32 < 0) __pyx_t_32 += __pyx_v_oxyquinol.shape[0];
       __pyx_t_31 = (*((int *) ( /* dim=0 */ (__pyx_v_oxyquinol.data + __pyx_t_32 * __pyx_v_oxyquinol.strides[0]) )));
       __pyx_t_28 = 1;
-      if (__pyx_t_31 < 0) __pyx_t_31 += __pyx_v_coor.shape[0];
-      if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coor.shape[1];
       __pyx_t_30 = __pyx_v_j;
       __pyx_t_29 = 1;
-      if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_coms.shape[0];
-      if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coms.shape[1];
       __pyx_t_27 = __pyx_v_k;
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_oxyquinol.shape[0];
       __pyx_t_5 = (*((int *) ( /* dim=0 */ (__pyx_v_oxyquinol.data + __pyx_t_27 * __pyx_v_oxyquinol.strides[0]) )));
       __pyx_t_23 = 2;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-      if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor.shape[1];
       __pyx_t_22 = __pyx_v_j;
       __pyx_t_24 = 2;
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coms.shape[0];
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coms.shape[1];
       __pyx_t_38 = __pyx_v_k;
-      if (__pyx_t_38 < 0) __pyx_t_38 += __pyx_v_squared_r_oxy.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_squared_r_oxy.data + __pyx_t_38 * __pyx_v_squared_r_oxy.strides[0]) )) = ((pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_36 * __pyx_v_coor.strides[0]) ) + __pyx_t_33 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_35 * __pyx_v_coms.strides[0]) ) + __pyx_t_34 * __pyx_v_coms.strides[1]) )))), 2.0) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_31 * __pyx_v_coor.strides[0]) ) + __pyx_t_28 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_30 * __pyx_v_coms.strides[0]) ) + __pyx_t_29 * __pyx_v_coms.strides[1]) )))), 2.0)) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_23 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_22 * __pyx_v_coms.strides[0]) ) + __pyx_t_24 * __pyx_v_coms.strides[1]) )))), 2.0));
 
       /* "newanalysis/helpers/helpers.pyx":424
@@ -26226,7 +25912,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *             else:
 */
         __pyx_t_24 = __pyx_v_k;
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_squared_r_oxy.shape[0];
         __pyx_t_18 = ((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_oxy.data + __pyx_t_24 * __pyx_v_squared_r_oxy.strides[0]) ))) < pow(__pyx_v_roxy, 2.0));
         if (__pyx_t_18) {
 
@@ -26238,7 +25923,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *                 roxy=sqrt(squared_r_oxy[k])
 */
           __pyx_t_24 = __pyx_v_k;
-          if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_squared_r_oxy.shape[0];
           __pyx_v_roxy = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_oxy.data + __pyx_t_24 * __pyx_v_squared_r_oxy.strides[0]) ))));
 
           /* "newanalysis/helpers/helpers.pyx":425
@@ -26269,7 +25953,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
       /*else*/ {
         __pyx_t_24 = __pyx_v_k;
-        if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_squared_r_oxy.shape[0];
         __pyx_v_roxy = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_oxy.data + __pyx_t_24 * __pyx_v_squared_r_oxy.strides[0]) ))));
       }
       __pyx_L19:;
@@ -26358,7 +26041,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
 */
     /*else*/ {
       __pyx_t_24 = __pyx_v_j;
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_store.shape[0];
       __pyx_t_11 = (__pyx_v_rtre - __pyx_v_histo_min);
       if (unlikely(__pyx_v_histo_width == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -26371,8 +26053,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
       }
       __pyx_t_22 = ((Py_ssize_t)(__pyx_t_11 / __pyx_v_histo_width));
       __pyx_t_27 = ((Py_ssize_t)(__pyx_t_40 / __pyx_v_histo_width));
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_histo.shape[0];
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_histo.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_histo.data + __pyx_t_22 * __pyx_v_histo.strides[0]) ) + __pyx_t_27 * __pyx_v_histo.strides[1]) )) += (*((double *) ( /* dim=0 */ (__pyx_v_store.data + __pyx_t_24 * __pyx_v_store.strides[0]) )));
 
       /* "newanalysis/helpers/helpers.pyx":436
@@ -26394,8 +26074,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
       }
       __pyx_t_24 = ((Py_ssize_t)(__pyx_t_40 / __pyx_v_histo_width));
       __pyx_t_27 = ((Py_ssize_t)(__pyx_t_11 / __pyx_v_histo_width));
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_count.shape[0];
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_count.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_count.data + __pyx_t_24 * __pyx_v_count.strides[0]) ) + __pyx_t_27 * __pyx_v_count.strides[1]) )) += 1.0;
     }
     __pyx_L21:;
@@ -26410,7 +26088,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  * 
 */
   __pyx_t_27 = __pyx_v_isolute;
-  if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_apr.shape[0];
   __pyx_t_12 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_27 * __pyx_v_apr.strides[0]) )));
   __pyx_t_13 = __pyx_t_12;
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
@@ -26424,7 +26101,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_24calcEnergyAAhisto(CYTHON_UNUS
  *     return energy * 1390.02, np.asarray(histo)[:,:] * 1390.02 , histo_error, np.asarray(count)[:,:]
 */
     __pyx_t_27 = __pyx_v_i;
-    if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_epa.shape[0];
     __pyx_v_energy = (__pyx_v_energy + (*((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_27 * __pyx_v_epa.strides[0]) ))));
   }
 
@@ -26824,7 +26500,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 452, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -27062,7 +26737,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_9 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_10 = __pyx_t_9;
   for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
@@ -27076,7 +26750,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  * 
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":469
@@ -27136,7 +26809,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_16 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_17 = __pyx_t_16;
       for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
@@ -27150,7 +26822,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":475
@@ -27162,12 +26833,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 0;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":476
@@ -27179,12 +26846,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
 */
         __pyx_t_21 = __pyx_v_idx;
         __pyx_t_20 = 1;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":477
@@ -27196,12 +26859,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":478
@@ -27221,9 +26880,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *                 epa[i] += tmp
 */
         __pyx_t_21 = __pyx_v_idx;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
         __pyx_t_20 = __pyx_v_idx2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
         __pyx_t_8 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -27248,7 +26905,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *             store[j]+=tmp_ener
 */
         __pyx_t_20 = __pyx_v_i;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_20 * __pyx_v_epa.strides[0]) )) += __pyx_v_tmp;
       }
 
@@ -27260,7 +26916,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  * 
 */
       __pyx_t_20 = __pyx_v_j;
-      if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_store.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_store.data + __pyx_t_20 * __pyx_v_store.strides[0]) )) += __pyx_v_tmp_ener;
       __pyx_L5_continue:;
     }
@@ -27326,37 +26981,21 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *                 if squared_r_tre[k]<rtre**2:
 */
       __pyx_t_20 = __pyx_v_k;
-      if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_trehalose.shape[0];
       __pyx_t_21 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_20 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_19 = 0;
-      if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-      if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
       __pyx_t_5 = __pyx_v_j;
       __pyx_t_24 = 0;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coms.shape[0];
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coms.shape[1];
       __pyx_t_25 = __pyx_v_k;
-      if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_trehalose.shape[0];
       __pyx_t_26 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_25 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_27 = 1;
-      if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_coor.shape[0];
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coor.shape[1];
       __pyx_t_28 = __pyx_v_j;
       __pyx_t_29 = 1;
-      if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coms.shape[0];
-      if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coms.shape[1];
       __pyx_t_30 = __pyx_v_k;
-      if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_trehalose.shape[0];
       __pyx_t_31 = (*((int *) ( /* dim=0 */ (__pyx_v_trehalose.data + __pyx_t_30 * __pyx_v_trehalose.strides[0]) )));
       __pyx_t_32 = 2;
-      if (__pyx_t_31 < 0) __pyx_t_31 += __pyx_v_coor.shape[0];
-      if (__pyx_t_32 < 0) __pyx_t_32 += __pyx_v_coor.shape[1];
       __pyx_t_33 = __pyx_v_j;
       __pyx_t_34 = 2;
-      if (__pyx_t_33 < 0) __pyx_t_33 += __pyx_v_coms.shape[0];
-      if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_coms.shape[1];
       __pyx_t_35 = __pyx_v_k;
-      if (__pyx_t_35 < 0) __pyx_t_35 += __pyx_v_squared_r_tre.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_35 * __pyx_v_squared_r_tre.strides[0]) )) = ((pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_5 * __pyx_v_coms.strides[0]) ) + __pyx_t_24 * __pyx_v_coms.strides[1]) )))), 2.0) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_26 * __pyx_v_coor.strides[0]) ) + __pyx_t_27 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_28 * __pyx_v_coms.strides[0]) ) + __pyx_t_29 * __pyx_v_coms.strides[1]) )))), 2.0)) + pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_31 * __pyx_v_coor.strides[0]) ) + __pyx_t_32 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_33 * __pyx_v_coms.strides[0]) ) + __pyx_t_34 * __pyx_v_coms.strides[1]) )))), 2.0));
 
       /* "newanalysis/helpers/helpers.pyx":491
@@ -27377,7 +27016,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *             else:
 */
         __pyx_t_34 = __pyx_v_k;
-        if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_squared_r_tre.shape[0];
         __pyx_t_15 = ((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_34 * __pyx_v_squared_r_tre.strides[0]) ))) < pow(__pyx_v_rtre, 2.0));
         if (__pyx_t_15) {
 
@@ -27389,7 +27027,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *                 rtre=sqrt(squared_r_tre[k])
 */
           __pyx_t_34 = __pyx_v_k;
-          if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_squared_r_tre.shape[0];
           __pyx_v_rtre = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_34 * __pyx_v_squared_r_tre.strides[0]) ))));
 
           /* "newanalysis/helpers/helpers.pyx":492
@@ -27420,7 +27057,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
 */
       /*else*/ {
         __pyx_t_34 = __pyx_v_k;
-        if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_squared_r_tre.shape[0];
         __pyx_v_rtre = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_squared_r_tre.data + __pyx_t_34 * __pyx_v_squared_r_tre.strides[0]) ))));
       }
       __pyx_L15:;
@@ -27493,14 +27129,12 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
 */
     /*else*/ {
       __pyx_t_34 = __pyx_v_j;
-      if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_store.shape[0];
       __pyx_t_8 = (__pyx_v_rtre - __pyx_v_histo_min);
       if (unlikely(__pyx_v_histo_width == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
         __PYX_ERR(0, 502, __pyx_L1_error)
       }
       __pyx_t_33 = ((Py_ssize_t)(__pyx_t_8 / __pyx_v_histo_width));
-      if (__pyx_t_33 < 0) __pyx_t_33 += __pyx_v_histo.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_histo.data + __pyx_t_33 * __pyx_v_histo.strides[0]) )) += (*((double *) ( /* dim=0 */ (__pyx_v_store.data + __pyx_t_34 * __pyx_v_store.strides[0]) )));
 
       /* "newanalysis/helpers/helpers.pyx":503
@@ -27516,7 +27150,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
         __PYX_ERR(0, 503, __pyx_L1_error)
       }
       __pyx_t_34 = ((Py_ssize_t)(__pyx_t_8 / __pyx_v_histo_width));
-      if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_count.shape[0];
       *((double *) ( /* dim=0 */ (__pyx_v_count.data + __pyx_t_34 * __pyx_v_count.strides[0]) )) += 1.0;
     }
     __pyx_L17:;
@@ -27531,7 +27164,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  * 
 */
   __pyx_t_34 = __pyx_v_isolute;
-  if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_apr.shape[0];
   __pyx_t_9 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_34 * __pyx_v_apr.strides[0]) )));
   __pyx_t_10 = __pyx_t_9;
   for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
@@ -27545,7 +27177,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
  *     return energy * 1390.02, np.asarray(histo)[:] * 1390.02 , histo_error, np.asarray(count)[:]
 */
     __pyx_t_34 = __pyx_v_i;
-    if (__pyx_t_34 < 0) __pyx_t_34 += __pyx_v_epa.shape[0];
     __pyx_v_energy = (__pyx_v_energy + (*((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_34 * __pyx_v_epa.strides[0]) ))));
   }
 
@@ -27588,7 +27219,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
     if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 508, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
   }
-  __pyx_t_36 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_36)) __PYX_ERR(0, 508, __pyx_L1_error)
+  __pyx_t_36 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_36)) __PYX_ERR(0, 508, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_36);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = PyNumber_Multiply(__pyx_t_36, __pyx_mstate_global->__pyx_float_1390_02); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 508, __pyx_L1_error)
@@ -27625,7 +27256,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_26calcEnergyAAhisto1(CYTHON_UNU
     if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 508, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_38 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_38)) __PYX_ERR(0, 508, __pyx_L1_error)
+  __pyx_t_38 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_38)) __PYX_ERR(0, 508, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_38);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = PyTuple_New(4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 508, __pyx_L1_error)
@@ -27947,7 +27578,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 519, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -27991,7 +27621,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 520, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -28146,7 +27775,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_9 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_10 = __pyx_t_9;
   for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
@@ -28160,7 +27788,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *         for j in range(first,last+1):
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":534
@@ -28229,7 +27856,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_16 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_17 = __pyx_t_16;
       for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
@@ -28243,7 +27869,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":541
@@ -28255,12 +27880,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 0;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":542
@@ -28272,12 +27893,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
 */
         __pyx_t_21 = __pyx_v_idx;
         __pyx_t_20 = 1;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":543
@@ -28289,12 +27906,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":544
@@ -28314,9 +27927,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                 if drude[k]==1:
 */
         __pyx_t_21 = __pyx_v_idx;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
         __pyx_t_20 = __pyx_v_idx2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
         __pyx_t_8 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -28332,7 +27943,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                     tmp_ind   +=qq
 */
         __pyx_t_20 = __pyx_v_k;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_drude.shape[0];
         __pyx_t_15 = ((*((double *) ( /* dim=0 */ (__pyx_v_drude.data + __pyx_t_20 * __pyx_v_drude.strides[0]) ))) == 1.0);
         if (__pyx_t_15) {
 
@@ -28344,7 +27954,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                 else:
 */
           __pyx_t_20 = __pyx_v_i;
-          if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_ind.shape[0];
           *((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_20 * __pyx_v_epa_ind.strides[0]) )) += __pyx_v_qq;
 
           /* "newanalysis/helpers/helpers.pyx":549
@@ -28375,7 +27984,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
 */
         /*else*/ {
           __pyx_t_20 = __pyx_v_i;
-          if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa_perm.shape[0];
           *((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_20 * __pyx_v_epa_perm.strides[0]) )) += __pyx_v_qq;
 
           /* "newanalysis/helpers/helpers.pyx":552
@@ -28395,7 +28003,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                         epa_ind[i] -= qq_diff
 */
           __pyx_t_20 = __pyx_v_j;
-          if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_apr.shape[0];
           __pyx_t_22 = (__pyx_v_k < ((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_20 * __pyx_v_apr.strides[0]) ))) - 1));
           if (__pyx_t_22) {
           } else {
@@ -28403,7 +28010,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
             goto __pyx_L12_bool_binop_done;
           }
           __pyx_t_20 = (__pyx_v_k + 1);
-          if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_drude.shape[0];
           __pyx_t_22 = ((*((double *) ( /* dim=0 */ (__pyx_v_drude.data + __pyx_t_20 * __pyx_v_drude.strides[0]) ))) == 1.0);
           __pyx_t_15 = __pyx_t_22;
           __pyx_L12_bool_binop_done:;
@@ -28417,9 +28023,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                         tmp_ind    = tmp_ind-qq_diff
 */
             __pyx_t_20 = __pyx_v_idx;
-            if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
             __pyx_t_21 = (__pyx_v_idx2 + 1);
-            if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
             __pyx_t_8 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))));
             if (unlikely(__pyx_v_r == 0)) {
               PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -28435,7 +28039,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *                         epa_perm[i]+= qq_diff
 */
             __pyx_t_21 = __pyx_v_i;
-            if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_epa_ind.shape[0];
             *((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_21 * __pyx_v_epa_ind.strides[0]) )) -= __pyx_v_qq_diff;
 
             /* "newanalysis/helpers/helpers.pyx":556
@@ -28455,7 +28058,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  * 
 */
             __pyx_t_21 = __pyx_v_i;
-            if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_epa_perm.shape[0];
             *((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_21 * __pyx_v_epa_perm.strides[0]) )) += __pyx_v_qq_diff;
 
             /* "newanalysis/helpers/helpers.pyx":558
@@ -28488,28 +28090,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
 */
       __pyx_t_21 = __pyx_v_j;
       __pyx_t_20 = 0;
-      if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coms.shape[0];
-      if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coms.shape[1];
       __pyx_t_19 = __pyx_v_j;
       __pyx_t_5 = 0;
-      if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coms.shape[0];
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coms.shape[1];
       __pyx_t_23 = __pyx_v_j;
       __pyx_t_24 = 1;
-      if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coms.shape[0];
-      if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coms.shape[1];
       __pyx_t_25 = __pyx_v_j;
       __pyx_t_26 = 1;
-      if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_coms.shape[0];
-      if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_coms.shape[1];
       __pyx_t_27 = __pyx_v_j;
       __pyx_t_28 = 2;
-      if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coms.shape[0];
-      if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coms.shape[1];
       __pyx_t_29 = __pyx_v_j;
       __pyx_t_30 = 2;
-      if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_coms.shape[0];
-      if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_coms.shape[1];
       __pyx_v_r = sqrt(((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_21 * __pyx_v_coms.strides[0]) ) + __pyx_t_20 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_19 * __pyx_v_coms.strides[0]) ) + __pyx_t_5 * __pyx_v_coms.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_23 * __pyx_v_coms.strides[0]) ) + __pyx_t_24 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_25 * __pyx_v_coms.strides[0]) ) + __pyx_t_26 * __pyx_v_coms.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_27 * __pyx_v_coms.strides[0]) ) + __pyx_t_28 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_29 * __pyx_v_coms.strides[0]) ) + __pyx_t_30 * __pyx_v_coms.strides[1]) ))))));
 
       /* "newanalysis/helpers/helpers.pyx":561
@@ -28584,7 +28174,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
           __PYX_ERR(0, 566, __pyx_L1_error)
         }
         __pyx_t_30 = ((Py_ssize_t)(__pyx_t_8 / __pyx_v_histo_width));
-        if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_histo_perm.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_histo_perm.data + __pyx_t_30 * __pyx_v_histo_perm.strides[0]) )) += __pyx_v_tmp_perm;
 
         /* "newanalysis/helpers/helpers.pyx":567
@@ -28600,7 +28189,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
           __PYX_ERR(0, 567, __pyx_L1_error)
         }
         __pyx_t_30 = ((Py_ssize_t)(__pyx_t_8 / __pyx_v_histo_width));
-        if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_histo_ind.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_histo_ind.data + __pyx_t_30 * __pyx_v_histo_ind.strides[0]) )) += __pyx_v_tmp_ind;
       }
       __pyx_L14:;
@@ -28616,7 +28204,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *         energy_ind  += epa_ind[i]
 */
   __pyx_t_30 = __pyx_v_isolute;
-  if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_apr.shape[0];
   __pyx_t_9 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_30 * __pyx_v_apr.strides[0]) )));
   __pyx_t_10 = __pyx_t_9;
   for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
@@ -28630,7 +28217,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  * 
 */
     __pyx_t_30 = __pyx_v_i;
-    if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_epa_perm.shape[0];
     __pyx_v_energy_perm = (__pyx_v_energy_perm + (*((double *) ( /* dim=0 */ (__pyx_v_epa_perm.data + __pyx_t_30 * __pyx_v_epa_perm.strides[0]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":571
@@ -28641,7 +28227,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
  *     return energy_perm * 1390.02 , energy_ind * 1390.02, np.asarray(histo_perm)[:] * 1390.02, np.asarray(histo_ind)[:] * 1390.02 , histo_error
 */
     __pyx_t_30 = __pyx_v_i;
-    if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_epa_ind.shape[0];
     __pyx_v_energy_ind = (__pyx_v_energy_ind + (*((double *) ( /* dim=0 */ (__pyx_v_epa_ind.data + __pyx_t_30 * __pyx_v_epa_ind.strides[0]) ))));
   }
 
@@ -28686,7 +28271,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
     if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 573, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
   }
-  __pyx_t_32 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 573, __pyx_L1_error)
+  __pyx_t_32 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 573, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_32);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = PyNumber_Multiply(__pyx_t_32, __pyx_mstate_global->__pyx_float_1390_02); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 573, __pyx_L1_error)
@@ -28721,7 +28306,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_28calcEnergyAApermindhisto(CYTH
     if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 573, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_32);
   }
-  __pyx_t_33 = __Pyx_PyObject_GetSlice(__pyx_t_32, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_33)) __PYX_ERR(0, 573, __pyx_L1_error)
+  __pyx_t_33 = __Pyx_PyObject_GetSlice(__pyx_t_32, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_33)) __PYX_ERR(0, 573, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_33);
   __Pyx_DECREF(__pyx_t_32); __pyx_t_32 = 0;
   __pyx_t_32 = PyNumber_Multiply(__pyx_t_33, __pyx_mstate_global->__pyx_float_1390_02); if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 573, __pyx_L1_error)
@@ -29007,7 +28592,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 584, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -29045,7 +28629,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -29059,7 +28642,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
  *         for j in range(nmol):
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":592
@@ -29124,7 +28706,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_16 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_17 = __pyx_t_16;
       for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
@@ -29138,7 +28719,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":597
@@ -29150,12 +28730,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 0;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":598
@@ -29167,12 +28743,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
 */
         __pyx_t_21 = __pyx_v_idx;
         __pyx_t_20 = 1;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":599
@@ -29184,12 +28756,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":600
@@ -29209,16 +28777,13 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
  *     return np.asarray(epa)[:] * 1390.02
 */
         __pyx_t_21 = __pyx_v_idx;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
         __pyx_t_20 = __pyx_v_idx2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges.shape[0];
         __pyx_t_22 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_20 * __pyx_v_charges.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
           __PYX_ERR(0, 601, __pyx_L1_error)
         }
         __pyx_t_20 = __pyx_v_i;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_20 * __pyx_v_epa.strides[0]) )) += (__pyx_t_22 / __pyx_v_r);
       }
       __pyx_L5_continue:;
@@ -29262,7 +28827,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_30calcEnergyAtomic(CYTHON_UNUSE
     if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 603, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 603, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 603, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = PyNumber_Multiply(__pyx_t_2, __pyx_mstate_global->__pyx_float_1390_02); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 603, __pyx_L1_error)
@@ -29508,7 +29073,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 614, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = 1;
@@ -29546,7 +29110,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *         if charges1[idx]==0:
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_8 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_9 = __pyx_t_8;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
@@ -29560,7 +29123,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *             continue
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":621
@@ -29571,7 +29133,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *         # loop over solvent molecules
 */
     __pyx_t_5 = __pyx_v_idx;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_charges1.shape[0];
     __pyx_t_11 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges1.data + __pyx_t_5 * __pyx_v_charges1.strides[0]) ))) == 0.0);
     if (__pyx_t_11) {
 
@@ -29655,7 +29216,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_16 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_17 = __pyx_t_16;
       for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
@@ -29669,7 +29229,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":629
@@ -29681,12 +29240,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 0;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":630
@@ -29698,12 +29253,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
 */
         __pyx_t_21 = __pyx_v_idx;
         __pyx_t_20 = 1;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_19 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_19 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":631
@@ -29715,12 +29266,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_19 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_21 = 2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_19 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":632
@@ -29740,16 +29287,13 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
  *     return np.asarray(epa1)[:] * 1390.02
 */
         __pyx_t_21 = __pyx_v_idx;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges1.shape[0];
         __pyx_t_20 = __pyx_v_idx2;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_charges1.shape[0];
         __pyx_t_22 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges1.data + __pyx_t_21 * __pyx_v_charges1.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges1.data + __pyx_t_20 * __pyx_v_charges1.strides[0]) ))));
         if (unlikely(__pyx_v_r == 0)) {
           PyErr_SetString(PyExc_ZeroDivisionError, "float division");
           __PYX_ERR(0, 633, __pyx_L1_error)
         }
         __pyx_t_20 = __pyx_v_i;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa1.shape[0];
         *((double *) ( /* dim=0 */ (__pyx_v_epa1.data + __pyx_t_20 * __pyx_v_epa1.strides[0]) )) += (__pyx_t_22 / __pyx_v_r);
       }
       __pyx_L6_continue:;
@@ -29794,7 +29338,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_32calcEnergyDouble(CYTHON_UNUSE
     if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 635, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[0], 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 635, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = PyNumber_Multiply(__pyx_t_2, __pyx_mstate_global->__pyx_float_1390_02); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 635, __pyx_L1_error)
@@ -30088,28 +29632,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_34calcDipDipEnergyAtomic(CYTHON
 */
     __pyx_t_6 = __pyx_v_i;
     __pyx_t_7 = 0;
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_coms.shape[0];
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coms.shape[1];
     __pyx_t_8 = __pyx_v_i;
     __pyx_t_9 = 0;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coms.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coms.shape[1];
     __pyx_t_10 = __pyx_v_i;
     __pyx_t_11 = 1;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coms.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coms.shape[1];
     __pyx_t_12 = __pyx_v_i;
     __pyx_t_13 = 1;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coms.shape[0];
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coms.shape[1];
     __pyx_t_14 = __pyx_v_i;
     __pyx_t_15 = 2;
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coms.shape[0];
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coms.shape[1];
     __pyx_t_16 = __pyx_v_i;
     __pyx_t_17 = 2;
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coms.shape[0];
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_coms.shape[1];
     __pyx_v_r = sqrt(((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_6 * __pyx_v_coms.strides[0]) ) + __pyx_t_7 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_8 * __pyx_v_coms.strides[0]) ) + __pyx_t_9 * __pyx_v_coms.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_10 * __pyx_v_coms.strides[0]) ) + __pyx_t_11 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_12 * __pyx_v_coms.strides[0]) ) + __pyx_t_13 * __pyx_v_coms.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_14 * __pyx_v_coms.strides[0]) ) + __pyx_t_15 * __pyx_v_coms.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_16 * __pyx_v_coms.strides[0]) ) + __pyx_t_17 * __pyx_v_coms.strides[1]) ))))));
 
     /* "newanalysis/helpers/helpers.pyx":653
@@ -30121,28 +29653,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_34calcDipDipEnergyAtomic(CYTHON
 */
     __pyx_t_17 = 0;
     __pyx_t_16 = 0;
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_dipol.shape[1];
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_14 = 0;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_dipol.shape[1];
     __pyx_t_13 = 0;
     __pyx_t_12 = 1;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_dipol.shape[1];
     __pyx_t_11 = __pyx_v_i;
     __pyx_t_10 = 1;
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_dipol.shape[1];
     __pyx_t_9 = 0;
     __pyx_t_8 = 2;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_dipol.shape[1];
     __pyx_t_7 = __pyx_v_i;
     __pyx_t_6 = 2;
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_dipol.shape[1];
     __pyx_t_18 = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_17 * __pyx_v_dipol.strides[0]) ) + __pyx_t_16 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_15 * __pyx_v_dipol.strides[0]) ) + __pyx_t_14 * __pyx_v_dipol.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_13 * __pyx_v_dipol.strides[0]) ) + __pyx_t_12 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_11 * __pyx_v_dipol.strides[0]) ) + __pyx_t_10 * __pyx_v_dipol.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_9 * __pyx_v_dipol.strides[0]) ) + __pyx_t_8 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_7 * __pyx_v_dipol.strides[0]) ) + __pyx_t_6 * __pyx_v_dipol.strides[1]) )))));
     __pyx_t_19 = ((__pyx_v_r * __pyx_v_r) * __pyx_v_r);
     if (unlikely(__pyx_t_19 == 0)) {
@@ -30156,52 +29676,28 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_34calcDipDipEnergyAtomic(CYTHON
     }
     __pyx_t_6 = 0;
     __pyx_t_7 = 0;
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dipol.shape[1];
     __pyx_t_8 = __pyx_v_i;
     __pyx_t_9 = 0;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coms.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coms.shape[1];
     __pyx_t_10 = 0;
     __pyx_t_11 = 1;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_dipol.shape[1];
     __pyx_t_12 = __pyx_v_i;
     __pyx_t_13 = 1;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coms.shape[0];
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coms.shape[1];
     __pyx_t_14 = 0;
     __pyx_t_15 = 2;
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_dipol.shape[1];
     __pyx_t_16 = __pyx_v_i;
     __pyx_t_17 = 2;
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coms.shape[0];
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_coms.shape[1];
     __pyx_t_21 = __pyx_v_i;
     __pyx_t_22 = 0;
-    if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_dipol.shape[1];
     __pyx_t_23 = __pyx_v_i;
     __pyx_t_24 = 0;
-    if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coms.shape[0];
-    if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_v_coms.shape[1];
     __pyx_t_25 = __pyx_v_i;
     __pyx_t_26 = 1;
-    if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_v_dipol.shape[1];
     __pyx_t_27 = __pyx_v_i;
     __pyx_t_28 = 1;
-    if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_v_coms.shape[0];
-    if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_v_coms.shape[1];
     __pyx_t_29 = __pyx_v_i;
     __pyx_t_30 = 2;
-    if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_v_dipol.shape[0];
-    if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_v_dipol.shape[1];
     __pyx_t_31 = __pyx_v_i;
     __pyx_t_32 = 2;
-    if (__pyx_t_31 < 0) __pyx_t_31 += __pyx_v_coms.shape[0];
-    if (__pyx_t_32 < 0) __pyx_t_32 += __pyx_v_coms.shape[1];
     __pyx_v_edip = (__pyx_v_edip + ((__pyx_t_18 / __pyx_t_19) - (((3.0 / __pyx_t_20) * ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_6 * __pyx_v_dipol.strides[0]) ) + __pyx_t_7 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_8 * __pyx_v_coms.strides[0]) ) + __pyx_t_9 * __pyx_v_coms.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_10 * __pyx_v_dipol.strides[0]) ) + __pyx_t_11 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_12 * __pyx_v_coms.strides[0]) ) + __pyx_t_13 * __pyx_v_coms.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_14 * __pyx_v_dipol.strides[0]) ) + __pyx_t_15 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_16 * __pyx_v_coms.strides[0]) ) + __pyx_t_17 * __pyx_v_coms.strides[1]) )))))) * ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_21 * __pyx_v_dipol.strides[0]) ) + __pyx_t_22 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_23 * __pyx_v_coms.strides[0]) ) + __pyx_t_24 * __pyx_v_coms.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_25 * __pyx_v_dipol.strides[0]) ) + __pyx_t_26 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_27 * __pyx_v_coms.strides[0]) ) + __pyx_t_28 * __pyx_v_coms.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dipol.data + __pyx_t_29 * __pyx_v_dipol.strides[0]) ) + __pyx_t_30 * __pyx_v_dipol.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coms.data + __pyx_t_31 * __pyx_v_coms.strides[0]) ) + __pyx_t_32 * __pyx_v_coms.strides[1]) ))))))));
     __pyx_L3_continue:;
   }
@@ -30454,7 +29950,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_3 = __Pyx_PyLong_From_int((*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_6 = __Pyx_PyLong_From_long((__pyx_v_maxshell + 1)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 667, __pyx_L1_error)
@@ -30502,7 +29997,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *         # loop over solvent molecules
 */
   __pyx_t_5 = __pyx_v_isolute;
-  if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
   __pyx_t_10 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
   __pyx_t_11 = __pyx_t_10;
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
@@ -30516,7 +30010,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *         for j in range(nmol):
 */
     __pyx_t_5 = __pyx_v_isolute;
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
     __pyx_v_idx = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_i);
 
     /* "newanalysis/helpers/helpers.pyx":675
@@ -30567,7 +30060,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *                 dx = coor[idx,0] - coor[idx2,0]
 */
       __pyx_t_5 = __pyx_v_j;
-      if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_apr.shape[0];
       __pyx_t_17 = (*((int *) ( /* dim=0 */ (__pyx_v_apr.data + __pyx_t_5 * __pyx_v_apr.strides[0]) )));
       __pyx_t_18 = __pyx_t_17;
       for (__pyx_t_19 = 0; __pyx_t_19 < __pyx_t_18; __pyx_t_19+=1) {
@@ -30581,7 +30073,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *                 dy = coor[idx,1] - coor[idx2,1]
 */
         __pyx_t_5 = __pyx_v_j;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_rfa.shape[0];
         __pyx_v_idx2 = ((*((int *) ( /* dim=0 */ (__pyx_v_rfa.data + __pyx_t_5 * __pyx_v_rfa.strides[0]) ))) + __pyx_v_k);
 
         /* "newanalysis/helpers/helpers.pyx":680
@@ -30593,12 +30084,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_20 = 0;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_21 = __pyx_v_idx2;
         __pyx_t_22 = 0;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[1];
         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_22 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":681
@@ -30610,12 +30097,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
 */
         __pyx_t_22 = __pyx_v_idx;
         __pyx_t_21 = 1;
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[0];
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[1];
         __pyx_t_20 = __pyx_v_idx2;
         __pyx_t_5 = 1;
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[0];
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_22 * __pyx_v_coor.strides[0]) ) + __pyx_t_21 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_20 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":682
@@ -30627,12 +30110,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
 */
         __pyx_t_5 = __pyx_v_idx;
         __pyx_t_20 = 2;
-        if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-        if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_coor.shape[1];
         __pyx_t_21 = __pyx_v_idx2;
         __pyx_t_22 = 2;
-        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor.shape[0];
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor.shape[1];
         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_20 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_21 * __pyx_v_coor.strides[0]) ) + __pyx_t_22 * __pyx_v_coor.strides[1]) ))));
 
         /* "newanalysis/helpers/helpers.pyx":683
@@ -30652,7 +30131,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *                 else:
 */
         __pyx_t_22 = (__pyx_v_j - 1);
-        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_ds.shape[0];
         __pyx_t_16 = ((*((char *) ( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_22 * __pyx_v_ds.strides[0]) ))) > __pyx_v_maxshell);
         if (__pyx_t_16) {
 
@@ -30664,9 +30142,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
  *                     epa[i,ds[j-1]-1] += charges[idx] * charges[idx2] / r
 */
           __pyx_t_22 = __pyx_v_idx;
-          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_charges.shape[0];
           __pyx_t_21 = __pyx_v_idx2;
-          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
           __pyx_t_23 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_22 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))));
           if (unlikely(__pyx_v_r == 0)) {
             PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -30674,8 +30150,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
           }
           __pyx_t_21 = __pyx_v_i;
           __pyx_t_22 = __pyx_v_maxshell;
-          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_epa.shape[0];
-          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_epa.shape[1];
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_21 * __pyx_v_epa.strides[0]) ) + __pyx_t_22 * __pyx_v_epa.strides[1]) )) += (__pyx_t_23 / __pyx_v_r);
 
           /* "newanalysis/helpers/helpers.pyx":684
@@ -30697,20 +30171,15 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_36calcEnergyAtomicVoro(CYTHON_U
 */
         /*else*/ {
           __pyx_t_22 = __pyx_v_idx;
-          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_charges.shape[0];
           __pyx_t_21 = __pyx_v_idx2;
-          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_charges.shape[0];
           __pyx_t_23 = ((*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_22 * __pyx_v_charges.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_charges.data + __pyx_t_21 * __pyx_v_charges.strides[0]) ))));
           if (unlikely(__pyx_v_r == 0)) {
             PyErr_SetString(PyExc_ZeroDivisionError, "float division");
             __PYX_ERR(0, 687, __pyx_L1_error)
           }
           __pyx_t_21 = (__pyx_v_j - 1);
-          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_ds.shape[0];
           __pyx_t_22 = __pyx_v_i;
           __pyx_t_20 = ((*((char *) ( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_21 * __pyx_v_ds.strides[0]) ))) - 1);
-          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_epa.shape[0];
-          if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_epa.shape[1];
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_epa.data + __pyx_t_22 * __pyx_v_epa.strides[0]) ) + __pyx_t_20 * __pyx_v_epa.strides[1]) )) += (__pyx_t_23 / __pyx_v_r);
         }
         __pyx_L10:;
@@ -32108,7 +31577,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_38calcEnergyAASep(CYTHON_UNUSED
  *         for j in range(3):
 */
       __pyx_t_22 = __pyx_v_j;
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_pybuffernd_energy.diminfo[0].shape;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_energy.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_energy.diminfo[0].strides) += (__pyx_v_epa[((__pyx_v_i * 8) + __pyx_v_j)]);
 
       /* "newanalysis/helpers/helpers.pyx":777
@@ -32119,7 +31587,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_38calcEnergyAASep(CYTHON_UNUSED
  *             energy_xyz[j]+=epa_xyz[i*3+j]
 */
       __pyx_t_22 = __pyx_v_j;
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_pybuffernd_energy_octant.diminfo[0].shape;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_energy_octant.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_energy_octant.diminfo[0].strides) += (__pyx_v_epa_oct[((__pyx_v_i * 8) + __pyx_v_j)]);
     }
 
@@ -32141,7 +31608,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_38calcEnergyAASep(CYTHON_UNUSED
  *     return energy*1390.02, energy_xyz*1390.02, energy_octant*1390.02
 */
       __pyx_t_22 = __pyx_v_j;
-      if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_pybuffernd_energy_xyz.diminfo[0].shape;
       *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_energy_xyz.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_energy_xyz.diminfo[0].strides) += (__pyx_v_epa_xyz[((__pyx_v_i * 3) + __pyx_v_j)]);
     }
   }
@@ -32449,9 +31915,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_40findDS(CYTHON_UNUSED PyObject
                               __pyx_t_7 = __pyx_v_t;
                               __pyx_t_8 = __pyx_v_i;
                               __pyx_t_9 = __pyx_v_j;
-                              if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_ds.shape[0];
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_ds.shape[1];
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_ds.shape[2];
                               __pyx_t_10 = ((*((char *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_7 * __pyx_v_ds.strides[0]) ) + __pyx_t_8 * __pyx_v_ds.strides[1]) ) + __pyx_t_9 * __pyx_v_ds.strides[2]) ))) == __pyx_v_shell);
                               if (__pyx_t_10) {
 
@@ -32464,8 +31927,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_40findDS(CYTHON_UNUSED PyObject
 */
                                 __pyx_t_9 = __pyx_v_t;
                                 __pyx_t_8 = __pyx_v_i;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_cn.shape[0];
-                                if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_cn.shape[1];
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_cn.data + __pyx_t_9 * __pyx_v_cn.strides[0]) ) + __pyx_t_8 * __pyx_v_cn.strides[1]) )) += 1.0;
 
                                 /* "newanalysis/helpers/helpers.pyx":790
@@ -32931,8 +32392,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_42dipTenCorrel(CYTHON_UNUSED Py
 */
                               __pyx_t_8 = __pyx_v_center;
                               __pyx_t_9 = __pyx_v_i;
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_H_indices.shape[0];
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_H_indices.shape[1];
                               __pyx_t_10 = ((*((char *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_indices.data + __pyx_t_8 * __pyx_v_H_indices.strides[0]) ) + __pyx_t_9 * __pyx_v_H_indices.strides[1]) ))) > 0);
                               if (__pyx_t_10) {
 
@@ -32945,8 +32404,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_42dipTenCorrel(CYTHON_UNUSED Py
 */
                                 __pyx_t_9 = __pyx_v_center;
                                 __pyx_t_8 = __pyx_v_i;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_H_indices.shape[0];
-                                if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_H_indices.shape[1];
                                 __pyx_v_H_shell = (*((char *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_indices.data + __pyx_t_9 * __pyx_v_H_indices.strides[0]) ) + __pyx_t_8 * __pyx_v_H_indices.strides[1]) )));
 
                                 /* "newanalysis/helpers/helpers.pyx":816
@@ -33101,51 +32558,27 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_42dipTenCorrel(CYTHON_UNUSED Py
                                 __pyx_t_8 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_H_shell;
                                 __pyx_t_12 = __pyx_v_timectr;
-                                if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_corrsubmean.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_corrsubmean.diminfo[1].shape;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_corrsubmean.diminfo[2].shape;
                                 __pyx_t_13 = __pyx_v_center;
                                 __pyx_t_14 = __pyx_v_ctr;
                                 __pyx_t_15 = 0;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_16 = __pyx_v_center;
                                 __pyx_t_17 = __pyx_v_ctr;
                                 __pyx_t_18 = 1;
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_19 = __pyx_v_center;
                                 __pyx_t_20 = __pyx_v_ctr;
                                 __pyx_t_21 = 2;
-                                if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_22 = __pyx_v_center;
                                 __pyx_t_23 = __pyx_v_ctr;
                                 __pyx_t_24 = 3;
-                                if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_24 < 0) __pyx_t_24 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_25 = __pyx_v_center;
                                 __pyx_t_26 = __pyx_v_ctr;
                                 __pyx_t_27 = 4;
-                                if (__pyx_t_25 < 0) __pyx_t_25 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_26 < 0) __pyx_t_26 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_27 < 0) __pyx_t_27 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_28 = __pyx_v_center;
                                 __pyx_t_29 = __pyx_v_ctr;
                                 __pyx_t_30 = 5;
-                                if (__pyx_t_28 < 0) __pyx_t_28 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_29 < 0) __pyx_t_29 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_30 < 0) __pyx_t_30 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 __pyx_t_31 = __pyx_v_center;
                                 __pyx_t_32 = __pyx_v_H_shell;
                                 __pyx_t_33 = __pyx_v_timectr;
-                                if (__pyx_t_31 < 0) __pyx_t_31 += __pyx_pybuffernd_corrsubmean.diminfo[0].shape;
-                                if (__pyx_t_32 < 0) __pyx_t_32 += __pyx_pybuffernd_corrsubmean.diminfo[1].shape;
-                                if (__pyx_t_33 < 0) __pyx_t_33 += __pyx_pybuffernd_corrsubmean.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_corrsubmean.rcbuffer->pybuffer.buf, __pyx_t_31, __pyx_pybuffernd_corrsubmean.diminfo[0].strides, __pyx_t_32, __pyx_pybuffernd_corrsubmean.diminfo[1].strides, __pyx_t_33, __pyx_pybuffernd_corrsubmean.diminfo[2].strides) = (((((((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_corrsubmean.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_corrsubmean.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_corrsubmean.diminfo[1].strides, __pyx_t_12, __pyx_pybuffernd_corrsubmean.diminfo[2].strides)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_15, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt0)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_18, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt1)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_21, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt2)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_23, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_24, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt3)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_26, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_27, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt4)) + ((*__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_29, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_30, __pyx_pybuffernd_dipT0.diminfo[2].strides)) * __pyx_v_dipTt5));
 
                                 /* "newanalysis/helpers/helpers.pyx":835
@@ -33190,7 +32623,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_42dipTenCorrel(CYTHON_UNUSED Py
                             goto __pyx_L13;
                             __pyx_L13:;
                             #ifdef _OPENMP
-                            #pragma omp critical(__pyx_parallel_lastprivates0)
+                            #pragma omp critical(__pyx_parallel_lastprivates3)
                             #endif /* _OPENMP */
                             {
                                 __pyx_parallel_temp0 = __pyx_v_H_shell;
@@ -33733,8 +33166,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
 */
                                 __pyx_t_9 = __pyx_v_center;
                                 __pyx_t_10 = __pyx_v_i;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_H_indices.shape[0];
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_H_indices.shape[1];
                                 *((char *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_H_indices.data + __pyx_t_9 * __pyx_v_H_indices.strides[0]) ) + __pyx_t_10 * __pyx_v_H_indices.strides[1]) )) = ((char)floor(pow(__pyx_v_r2, 0.5)));
 
                                 /* "newanalysis/helpers/helpers.pyx":862
@@ -33799,9 +33230,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_10 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_12 = 0;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[2].strides) = (((__pyx_v_f2_0 * __pyx_v_rvec0) - __pyx_v_f1) / 6.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":869
@@ -33814,9 +33242,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_12 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_10 = 1;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[2].strides) = (((__pyx_v_f2_1 * __pyx_v_rvec1) - __pyx_v_f1) / 6.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":870
@@ -33829,9 +33254,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_10 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_12 = 2;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[2].strides) = (((__pyx_v_f2_2 * __pyx_v_rvec2) - __pyx_v_f1) / 6.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":871
@@ -33844,9 +33266,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_12 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_10 = 3;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[2].strides) = ((__pyx_v_f2_0 * __pyx_v_rvec1) / 3.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":872
@@ -33859,9 +33278,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_10 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_12 = 4;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[2].strides) = ((__pyx_v_f2_0 * __pyx_v_rvec2) / 3.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":873
@@ -33874,9 +33290,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                                 __pyx_t_12 = __pyx_v_center;
                                 __pyx_t_9 = __pyx_v_ctr;
                                 __pyx_t_10 = 5;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_pybuffernd_dipT0.diminfo[0].shape;
-                                if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_dipT0.diminfo[1].shape;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_pybuffernd_dipT0.diminfo[2].shape;
                                 *__Pyx_BufPtrCContig3d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipT0.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_dipT0.diminfo[0].strides, __pyx_t_9, __pyx_pybuffernd_dipT0.diminfo[1].strides, __pyx_t_10, __pyx_pybuffernd_dipT0.diminfo[2].strides) = ((__pyx_v_f2_1 * __pyx_v_rvec2) / 3.0);
 
                                 /* "newanalysis/helpers/helpers.pyx":875
@@ -33921,7 +33334,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_44dipTenInit(CYTHON_UNUSED PyOb
                             goto __pyx_L13;
                             __pyx_L13:;
                             #ifdef _OPENMP
-                            #pragma omp critical(__pyx_parallel_lastprivates1)
+                            #pragma omp critical(__pyx_parallel_lastprivates4)
                             #endif /* _OPENMP */
                             {
                                 __pyx_parallel_temp0 = __pyx_v_center;
@@ -34329,7 +33742,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  *     dipt[2] = f2_2 * c_rv[2] - f1
 */
   __pyx_t_8 = 0;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = ((__pyx_v_f2_0 * (__pyx_v_c_rv[0])) - __pyx_v_f1);
 
   /* "newanalysis/helpers/helpers.pyx":895
@@ -34340,7 +33752,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  *     dipt[3] = f2_0 * c_rv[1]
 */
   __pyx_t_8 = 1;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = ((__pyx_v_f2_1 * (__pyx_v_c_rv[1])) - __pyx_v_f1);
 
   /* "newanalysis/helpers/helpers.pyx":896
@@ -34351,7 +33762,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  *     dipt[4] = f2_0 * c_rv[2]
 */
   __pyx_t_8 = 2;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = ((__pyx_v_f2_2 * (__pyx_v_c_rv[2])) - __pyx_v_f1);
 
   /* "newanalysis/helpers/helpers.pyx":897
@@ -34362,7 +33772,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  *     dipt[5] = f2_1 * c_rv[2]
 */
   __pyx_t_8 = 3;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = (__pyx_v_f2_0 * (__pyx_v_c_rv[1]));
 
   /* "newanalysis/helpers/helpers.pyx":898
@@ -34373,7 +33782,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  * 
 */
   __pyx_t_8 = 4;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = (__pyx_v_f2_0 * (__pyx_v_c_rv[2]));
 
   /* "newanalysis/helpers/helpers.pyx":899
@@ -34384,7 +33792,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_46dipTen(CYTHON_UNUSED PyObject
  *     return dipt
 */
   __pyx_t_8 = 5;
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_pybuffernd_dipt.diminfo[0].shape;
   *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_dipt.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_dipt.diminfo[0].strides) = (__pyx_v_f2_1 * (__pyx_v_c_rv[2]));
 
   /* "newanalysis/helpers/helpers.pyx":901
@@ -35259,7 +34666,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_48NQRself(CYTHON_UNUSED PyObjec
                                 goto __pyx_L16;
                                 __pyx_L16:;
                                 #ifdef _OPENMP
-                                #pragma omp critical(__pyx_parallel_lastprivates2)
+                                #pragma omp critical(__pyx_parallel_lastprivates5)
                                 #endif /* _OPENMP */
                                 {
                                     __pyx_parallel_temp0 = __pyx_v_H1x;
@@ -35793,12 +35200,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_13 = (__pyx_v_i + 1);
                                 __pyx_t_14 = 0;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
                                 __pyx_t_15 = __pyx_v_i;
                                 __pyx_t_16 = 0;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
                                 __pyx_v_H1x = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":992
@@ -35810,12 +35213,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_16 = (__pyx_v_i + 1);
                                 __pyx_t_15 = 1;
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                                 __pyx_t_14 = __pyx_v_i;
                                 __pyx_t_13 = 1;
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[1];
                                 __pyx_v_H1y = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_16 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_13 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":993
@@ -35827,12 +35226,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_13 = (__pyx_v_i + 1);
                                 __pyx_t_14 = 2;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
                                 __pyx_t_15 = __pyx_v_i;
                                 __pyx_t_16 = 2;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
                                 __pyx_v_H1z = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":995
@@ -35844,12 +35239,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_16 = (__pyx_v_i + 2);
                                 __pyx_t_15 = 0;
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                                 __pyx_t_14 = __pyx_v_i;
                                 __pyx_t_13 = 0;
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[1];
                                 __pyx_v_H2x = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_16 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_13 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":996
@@ -35861,12 +35252,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_13 = (__pyx_v_i + 2);
                                 __pyx_t_14 = 1;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
                                 __pyx_t_15 = __pyx_v_i;
                                 __pyx_t_16 = 1;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
                                 __pyx_v_H2y = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":997
@@ -35878,12 +35265,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
 */
                                 __pyx_t_16 = (__pyx_v_i + 2);
                                 __pyx_t_15 = 2;
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                                 __pyx_t_14 = __pyx_v_i;
                                 __pyx_t_13 = 2;
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[1];
                                 __pyx_v_H2z = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_16 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_13 * __pyx_v_coor.strides[1]) ))));
 
                                 /* "newanalysis/helpers/helpers.pyx":999
@@ -36100,9 +35483,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_13 = __pyx_v_ind;
                                 __pyx_t_14 = 0;
                                 __pyx_t_15 = 0;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_13 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_15 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[0]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1023
@@ -36115,9 +35495,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_15 = __pyx_v_ind;
                                 __pyx_t_14 = 0;
                                 __pyx_t_13 = 1;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_15 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_13 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[1]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1024
@@ -36130,9 +35507,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_13 = __pyx_v_ind;
                                 __pyx_t_14 = 0;
                                 __pyx_t_15 = 2;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_13 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_15 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[2]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1025
@@ -36145,9 +35519,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_15 = __pyx_v_ind;
                                 __pyx_t_14 = 1;
                                 __pyx_t_13 = 0;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_15 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_13 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[3]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1026
@@ -36160,9 +35531,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_13 = __pyx_v_ind;
                                 __pyx_t_14 = 1;
                                 __pyx_t_15 = 1;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_13 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_15 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[4]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1027
@@ -36175,9 +35543,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_15 = __pyx_v_ind;
                                 __pyx_t_14 = 1;
                                 __pyx_t_13 = 2;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_15 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_13 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[5]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1028
@@ -36190,9 +35555,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_13 = __pyx_v_ind;
                                 __pyx_t_14 = 2;
                                 __pyx_t_15 = 0;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_13 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_15 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[6]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1029
@@ -36205,9 +35567,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_15 = __pyx_v_ind;
                                 __pyx_t_14 = 2;
                                 __pyx_t_13 = 1;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_15 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_13 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[7]);
 
                                 /* "newanalysis/helpers/helpers.pyx":1030
@@ -36220,9 +35579,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 __pyx_t_13 = __pyx_v_ind;
                                 __pyx_t_14 = 2;
                                 __pyx_t_15 = 2;
-                                if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_B_out.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_B_out.shape[1];
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_B_out.shape[2];
                                 *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_B_out.data + __pyx_t_13 * __pyx_v_B_out.strides[0]) ) + __pyx_t_14 * __pyx_v_B_out.strides[1]) ) + __pyx_t_15 * __pyx_v_B_out.strides[2]) )) = (__pyx_v_B[8]);
                                 goto __pyx_L17;
                                 __pyx_L12_error:;
@@ -36248,7 +35604,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_50waterRotationMatrix(CYTHON_UN
                                 goto __pyx_L16;
                                 __pyx_L16:;
                                 #ifdef _OPENMP
-                                #pragma omp critical(__pyx_parallel_lastprivates3)
+                                #pragma omp critical(__pyx_parallel_lastprivates6)
                                 #endif /* _OPENMP */
                                 {
                                     __pyx_parallel_temp0 = __pyx_v_H1x;
@@ -37582,7 +36938,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_52NQRselfAndB(CYTHON_UNUSED PyO
                                 goto __pyx_L16;
                                 __pyx_L16:;
                                 #ifdef _OPENMP
-                                #pragma omp critical(__pyx_parallel_lastprivates4)
+                                #pragma omp critical(__pyx_parallel_lastprivates7)
                                 #endif /* _OPENMP */
                                 {
                                     __pyx_parallel_temp0 = __pyx_v_H1x;
@@ -38995,7 +38351,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_54NQRdipTen(CYTHON_UNUSED PyObj
                                 goto __pyx_L20;
                                 __pyx_L20:;
                                 #ifdef _OPENMP
-                                #pragma omp critical(__pyx_parallel_lastprivates5)
+                                #pragma omp critical(__pyx_parallel_lastprivates8)
                                 #endif /* _OPENMP */
                                 {
                                     __pyx_parallel_temp0 = __pyx_v_auf_x1;
@@ -39831,7 +39187,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_58sumMDCage(CYTHON_UNUSED PyObj
  *             for i in range(3):
 */
     __pyx_t_4 = __pyx_v_w;
-    if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_ds.shape[0];
     __pyx_v_shell = ((*((char *) ( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_4 * __pyx_v_ds.strides[0]) ))) - 1);
 
     /* "newanalysis/helpers/helpers.pyx":1415
@@ -39863,16 +39218,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_58sumMDCage(CYTHON_UNUSED PyObj
 */
         __pyx_t_4 = __pyx_v_w;
         __pyx_t_7 = __pyx_v_i;
-        if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_dip_wat.shape[0];
-        if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dip_wat.shape[1];
         __pyx_t_8 = __pyx_v_rep;
         __pyx_t_9 = __pyx_v_shell;
         __pyx_t_10 = __pyx_v_frame;
         __pyx_t_11 = __pyx_v_i;
-        if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_mdcage_ts.shape[0];
-        if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_mdcage_ts.shape[1];
-        if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mdcage_ts.shape[2];
-        if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_mdcage_ts.shape[3];
         *((double *) ( /* dim=3 */ (( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_mdcage_ts.data + __pyx_t_8 * __pyx_v_mdcage_ts.strides[0]) ) + __pyx_t_9 * __pyx_v_mdcage_ts.strides[1]) ) + __pyx_t_10 * __pyx_v_mdcage_ts.strides[2]) ) + __pyx_t_11 * __pyx_v_mdcage_ts.strides[3]) )) += (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip_wat.data + __pyx_t_4 * __pyx_v_dip_wat.strides[0]) ) + __pyx_t_7 * __pyx_v_dip_wat.strides[1]) )));
       }
 
@@ -39906,16 +39255,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_58sumMDCage(CYTHON_UNUSED PyObj
 */
         __pyx_t_7 = __pyx_v_w;
         __pyx_t_4 = __pyx_v_i;
-        if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dip_wat.shape[0];
-        if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_dip_wat.shape[1];
         __pyx_t_11 = __pyx_v_rep;
         __pyx_t_10 = __pyx_v_maxshell;
         __pyx_t_9 = __pyx_v_frame;
         __pyx_t_8 = __pyx_v_i;
-        if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_mdcage_ts.shape[0];
-        if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mdcage_ts.shape[1];
-        if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_mdcage_ts.shape[2];
-        if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_mdcage_ts.shape[3];
         *((double *) ( /* dim=3 */ (( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_mdcage_ts.data + __pyx_t_11 * __pyx_v_mdcage_ts.strides[0]) ) + __pyx_t_10 * __pyx_v_mdcage_ts.strides[1]) ) + __pyx_t_9 * __pyx_v_mdcage_ts.strides[2]) ) + __pyx_t_8 * __pyx_v_mdcage_ts.strides[3]) )) += (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip_wat.data + __pyx_t_7 * __pyx_v_dip_wat.strides[0]) ) + __pyx_t_4 * __pyx_v_dip_wat.strides[1]) )));
       }
     }
@@ -40116,7 +39459,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_60sumMDCageSingle(CYTHON_UNUSED
  *             for i in range(3):
 */
     __pyx_t_4 = __pyx_v_w;
-    if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_ds.shape[0];
     __pyx_v_shell = ((*((char *) ( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_4 * __pyx_v_ds.strides[0]) ))) - 1);
 
     /* "newanalysis/helpers/helpers.pyx":1430
@@ -40148,14 +39490,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_60sumMDCageSingle(CYTHON_UNUSED
 */
         __pyx_t_4 = __pyx_v_w;
         __pyx_t_7 = __pyx_v_i;
-        if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_dip_wat.shape[0];
-        if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dip_wat.shape[1];
         __pyx_t_8 = __pyx_v_shell;
         __pyx_t_9 = __pyx_v_frame;
         __pyx_t_10 = __pyx_v_i;
-        if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_mdcage_ts.shape[0];
-        if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_mdcage_ts.shape[1];
-        if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mdcage_ts.shape[2];
         *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_mdcage_ts.data + __pyx_t_8 * __pyx_v_mdcage_ts.strides[0]) ) + __pyx_t_9 * __pyx_v_mdcage_ts.strides[1]) ) + __pyx_t_10 * __pyx_v_mdcage_ts.strides[2]) )) += (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip_wat.data + __pyx_t_4 * __pyx_v_dip_wat.strides[0]) ) + __pyx_t_7 * __pyx_v_dip_wat.strides[1]) )));
       }
 
@@ -40189,14 +39526,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_60sumMDCageSingle(CYTHON_UNUSED
 */
         __pyx_t_7 = __pyx_v_w;
         __pyx_t_4 = __pyx_v_i;
-        if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_dip_wat.shape[0];
-        if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_dip_wat.shape[1];
         __pyx_t_10 = __pyx_v_maxshell;
         __pyx_t_9 = __pyx_v_frame;
         __pyx_t_8 = __pyx_v_i;
-        if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mdcage_ts.shape[0];
-        if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_mdcage_ts.shape[1];
-        if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_mdcage_ts.shape[2];
         *((double *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_mdcage_ts.data + __pyx_t_10 * __pyx_v_mdcage_ts.strides[0]) ) + __pyx_t_9 * __pyx_v_mdcage_ts.strides[1]) ) + __pyx_t_8 * __pyx_v_mdcage_ts.strides[2]) )) += (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_dip_wat.data + __pyx_t_7 * __pyx_v_dip_wat.strides[0]) ) + __pyx_t_4 * __pyx_v_dip_wat.strides[1]) )));
       }
     }
@@ -40451,23 +39783,14 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_62calcAngularMomentum(CYTHON_UN
 */
     __pyx_t_9 = 0;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     __pyx_t_11 = __pyx_v_i;
     __pyx_t_12 = 1;
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[0];
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[1];
     __pyx_t_13 = __pyx_v_i;
     __pyx_t_14 = 2;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_vel.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_vel.shape[1];
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_16 = 2;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
     __pyx_t_17 = __pyx_v_i;
     __pyx_t_18 = 1;
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_vel.shape[0];
-    if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_vel.shape[1];
     (__pyx_v_cL[__pyx_t_9]) = ((__pyx_v_cL[__pyx_t_9]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_11 * __pyx_v_coor.strides[0]) ) + __pyx_t_12 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_13 * __pyx_v_vel.strides[0]) ) + __pyx_t_14 * __pyx_v_vel.strides[1]) )))) - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_17 * __pyx_v_vel.strides[0]) ) + __pyx_t_18 * __pyx_v_vel.strides[1]) )))))));
 
     /* "newanalysis/helpers/helpers.pyx":1446
@@ -40479,23 +39802,14 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_62calcAngularMomentum(CYTHON_UN
 */
     __pyx_t_9 = 1;
     __pyx_t_18 = __pyx_v_i;
-    if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_masses.shape[0];
     __pyx_t_17 = __pyx_v_i;
     __pyx_t_16 = 2;
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_coor.shape[0];
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_14 = 0;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_vel.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_vel.shape[1];
     __pyx_t_13 = __pyx_v_i;
     __pyx_t_12 = 0;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[1];
     __pyx_t_11 = __pyx_v_i;
     __pyx_t_10 = 2;
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_vel.shape[0];
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_vel.shape[1];
     (__pyx_v_cL[__pyx_t_9]) = ((__pyx_v_cL[__pyx_t_9]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_18 * __pyx_v_masses.strides[0]) ))) * (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_17 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_15 * __pyx_v_vel.strides[0]) ) + __pyx_t_14 * __pyx_v_vel.strides[1]) )))) - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_12 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_11 * __pyx_v_vel.strides[0]) ) + __pyx_t_10 * __pyx_v_vel.strides[1]) )))))));
 
     /* "newanalysis/helpers/helpers.pyx":1447
@@ -40507,23 +39821,14 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_62calcAngularMomentum(CYTHON_UN
 */
     __pyx_t_9 = 2;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     __pyx_t_11 = __pyx_v_i;
     __pyx_t_12 = 0;
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[0];
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[1];
     __pyx_t_13 = __pyx_v_i;
     __pyx_t_14 = 1;
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_vel.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_vel.shape[1];
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_16 = 1;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-    if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_coor.shape[1];
     __pyx_t_17 = __pyx_v_i;
     __pyx_t_18 = 0;
-    if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_vel.shape[0];
-    if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_vel.shape[1];
     (__pyx_v_cL[__pyx_t_9]) = ((__pyx_v_cL[__pyx_t_9]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_11 * __pyx_v_coor.strides[0]) ) + __pyx_t_12 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_13 * __pyx_v_vel.strides[0]) ) + __pyx_t_14 * __pyx_v_vel.strides[1]) )))) - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_16 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_vel.data + __pyx_t_17 * __pyx_v_vel.strides[0]) ) + __pyx_t_18 * __pyx_v_vel.strides[1]) )))))));
   }
 
@@ -40790,8 +40095,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_9 = __pyx_v_i;
     __pyx_t_10 = 0;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[0];
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[1];
     __pyx_v_x = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_9 * __pyx_v_coor.strides[0]) ) + __pyx_t_10 * __pyx_v_coor.strides[1]) )));
 
     /* "newanalysis/helpers/helpers.pyx":1461
@@ -40803,8 +40106,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_10 = __pyx_v_i;
     __pyx_t_9 = 1;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[1];
     __pyx_v_y = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_9 * __pyx_v_coor.strides[1]) )));
 
     /* "newanalysis/helpers/helpers.pyx":1462
@@ -40816,8 +40117,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_9 = __pyx_v_i;
     __pyx_t_10 = 2;
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[0];
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[1];
     __pyx_v_z = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_9 * __pyx_v_coor.strides[0]) ) + __pyx_t_10 * __pyx_v_coor.strides[1]) )));
 
     /* "newanalysis/helpers/helpers.pyx":1463
@@ -40829,7 +40128,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 0;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * ((__pyx_v_y * __pyx_v_y) + (__pyx_v_z * __pyx_v_z))));
 
     /* "newanalysis/helpers/helpers.pyx":1464
@@ -40841,7 +40139,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 1;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) - (((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * __pyx_v_x) * __pyx_v_y));
 
     /* "newanalysis/helpers/helpers.pyx":1465
@@ -40853,7 +40150,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 2;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) - (((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * __pyx_v_x) * __pyx_v_z));
 
     /* "newanalysis/helpers/helpers.pyx":1466
@@ -40865,7 +40161,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 4;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * ((__pyx_v_x * __pyx_v_x) + (__pyx_v_z * __pyx_v_z))));
 
     /* "newanalysis/helpers/helpers.pyx":1467
@@ -40877,7 +40172,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 5;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) - (((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * __pyx_v_y) * __pyx_v_z));
 
     /* "newanalysis/helpers/helpers.pyx":1468
@@ -40889,7 +40183,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_64calcInertiaTensor(CYTHON_UNUS
 */
     __pyx_t_11 = 8;
     __pyx_t_10 = __pyx_v_i;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_masses.shape[0];
     (__pyx_v_cI[__pyx_t_11]) = ((__pyx_v_cI[__pyx_t_11]) + ((*((double *) ( /* dim=0 */ (__pyx_v_masses.data + __pyx_t_10 * __pyx_v_masses.strides[0]) ))) * ((__pyx_v_x * __pyx_v_x) + (__pyx_v_y * __pyx_v_y))));
   }
 
@@ -41124,10 +40417,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_66calcResidenceTimeseries(CYTHO
   __PYX_INC_MEMVIEW(&__pyx_t_2, 1);
   {
     Py_ssize_t __pyx_tmp_idx = 0;
-        Py_ssize_t __pyx_tmp_shape = __pyx_v_ds.shape[0];
     Py_ssize_t __pyx_tmp_stride = __pyx_v_ds.strides[0];
-        if (__pyx_tmp_idx < 0)
-            __pyx_tmp_idx += __pyx_tmp_shape;
         __pyx_t_2.data += __pyx_tmp_idx * __pyx_tmp_stride;
 }
 
@@ -41274,14 +40564,9 @@ __pyx_t_1 = __Pyx_MemoryView_Len(__pyx_t_2);
 */
                                   __pyx_t_18 = __pyx_v_i;
                                   __pyx_t_19 = __pyx_v_j;
-                                  if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_ds.shape[0];
-                                  if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_ds.shape[1];
                                   __pyx_t_20 = ((*((char *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_ds.data + __pyx_t_18 * __pyx_v_ds.strides[0]) ) + __pyx_t_19 * __pyx_v_ds.strides[1]) ))) - 1);
                                   __pyx_t_21 = __pyx_v_i;
                                   __pyx_t_22 = __pyx_v_j;
-                                  if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_ts.shape[0];
-                                  if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_ts.shape[1];
-                                  if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_ts.shape[2];
                                   *((char *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_ts.data + __pyx_t_20 * __pyx_v_ts.strides[0]) ) + __pyx_t_21 * __pyx_v_ts.strides[1]) ) + __pyx_t_22 * __pyx_v_ts.strides[2]) )) += 1;
                                 }
                             }
@@ -41727,20 +41012,12 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_68calcAngularDisplacement(CYTHO
 */
       __pyx_t_14 = __pyx_v_k;
       __pyx_t_15 = __pyx_v_j;
-      if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_integral.shape[0];
-      if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_integral.shape[1];
       __pyx_t_16 = __pyx_v_k;
       __pyx_t_17 = __pyx_v_j;
-      if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_wts.shape[0];
-      if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_wts.shape[1];
       __pyx_t_18 = __pyx_v_i;
       __pyx_t_19 = __pyx_v_j;
-      if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_wts.shape[0];
-      if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_wts.shape[1];
       __pyx_t_20 = __pyx_v_i;
       __pyx_t_21 = __pyx_v_j;
-      if (__pyx_t_20 < 0) __pyx_t_20 += __pyx_v_integral.shape[0];
-      if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_integral.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_integral.data + __pyx_t_20 * __pyx_v_integral.strides[0]) ) + __pyx_t_21 * __pyx_v_integral.strides[1]) )) = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_integral.data + __pyx_t_14 * __pyx_v_integral.strides[0]) ) + __pyx_t_15 * __pyx_v_integral.strides[1]) ))) + ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_wts.data + __pyx_t_16 * __pyx_v_wts.strides[0]) ) + __pyx_t_17 * __pyx_v_wts.strides[1]) ))) + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_wts.data + __pyx_t_18 * __pyx_v_wts.strides[0]) ) + __pyx_t_19 * __pyx_v_wts.strides[1]) )))) * 0.5) * __pyx_v_dt));
     }
   }
@@ -41814,16 +41091,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_68calcAngularDisplacement(CYTHO
 */
                                 __pyx_t_19 = __pyx_v_j;
                                 __pyx_t_18 = __pyx_v_k;
-                                if (__pyx_t_19 < 0) __pyx_t_19 += __pyx_v_integral.shape[0];
-                                if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_integral.shape[1];
                                 __pyx_t_17 = (__pyx_v_j + __pyx_v_i);
                                 __pyx_t_16 = __pyx_v_k;
-                                if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_integral.shape[0];
-                                if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_integral.shape[1];
                                 __pyx_t_15 = __pyx_v_i;
                                 __pyx_t_14 = __pyx_v_k;
-                                if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_msd.shape[0];
-                                if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_msd.shape[1];
                                 *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_msd.data + __pyx_t_15 * __pyx_v_msd.strides[0]) ) + __pyx_t_14 * __pyx_v_msd.strides[1]) )) += pow(((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_integral.data + __pyx_t_19 * __pyx_v_integral.strides[0]) ) + __pyx_t_18 * __pyx_v_integral.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_integral.data + __pyx_t_17 * __pyx_v_integral.strides[0]) ) + __pyx_t_16 * __pyx_v_integral.strides[1]) )))), 2.0);
                               }
 
@@ -41835,7 +41106,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_68calcAngularDisplacement(CYTHO
  *     for i in range(tn):
 */
                               __pyx_t_16 = __pyx_v_i;
-                              if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_ctr.shape[0];
                               *((int *) ( /* dim=0 */ (__pyx_v_ctr.data + __pyx_t_16 * __pyx_v_ctr.strides[0]) )) += 1;
                             }
                         }
@@ -41898,11 +41168,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_68calcAngularDisplacement(CYTHO
  *     return msd
 */
       __pyx_t_16 = __pyx_v_i;
-      if (__pyx_t_16 < 0) __pyx_t_16 += __pyx_v_ctr.shape[0];
       __pyx_t_17 = __pyx_v_i;
       __pyx_t_18 = __pyx_v_j;
-      if (__pyx_t_17 < 0) __pyx_t_17 += __pyx_v_msd.shape[0];
-      if (__pyx_t_18 < 0) __pyx_t_18 += __pyx_v_msd.shape[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_msd.data + __pyx_t_17 * __pyx_v_msd.strides[0]) ) + __pyx_t_18 * __pyx_v_msd.strides[1]) )) /= (*((int *) ( /* dim=0 */ (__pyx_v_ctr.data + __pyx_t_16 * __pyx_v_ctr.strides[0]) )));
     }
   }
@@ -42202,12 +41469,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
 */
                               __pyx_t_7 = __pyx_v_j;
                               __pyx_t_8 = 0;
-                              if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor_surr.shape[0];
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor_surr.shape[1];
                               __pyx_t_9 = __pyx_v_i;
                               __pyx_t_10 = 0;
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor_core.shape[0];
-                              if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor_core.shape[1];
                               __pyx_v_tmp_x = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_7 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_8 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_core.data + __pyx_t_9 * __pyx_v_coor_core.strides[0]) ) + __pyx_t_10 * __pyx_v_coor_core.strides[1]) ))));
 
                               /* "newanalysis/helpers/helpers.pyx":1535
@@ -42219,12 +41482,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
 */
                               __pyx_t_10 = __pyx_v_j;
                               __pyx_t_9 = 1;
-                              if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor_surr.shape[0];
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor_surr.shape[1];
                               __pyx_t_8 = __pyx_v_i;
                               __pyx_t_7 = 1;
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor_core.shape[0];
-                              if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor_core.shape[1];
                               __pyx_v_tmp_y = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_10 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_9 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_core.data + __pyx_t_8 * __pyx_v_coor_core.strides[0]) ) + __pyx_t_7 * __pyx_v_coor_core.strides[1]) ))));
 
                               /* "newanalysis/helpers/helpers.pyx":1536
@@ -42236,12 +41495,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
 */
                               __pyx_t_7 = __pyx_v_j;
                               __pyx_t_8 = 2;
-                              if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor_surr.shape[0];
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor_surr.shape[1];
                               __pyx_t_9 = __pyx_v_i;
                               __pyx_t_10 = 2;
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor_core.shape[0];
-                              if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor_core.shape[1];
                               __pyx_v_tmp_z = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_7 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_8 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_core.data + __pyx_t_9 * __pyx_v_coor_core.strides[0]) ) + __pyx_t_10 * __pyx_v_coor_core.strides[1]) ))));
 
                               /* "newanalysis/helpers/helpers.pyx":1538
@@ -42261,7 +41516,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
  *                 next_id[i] = j
 */
                               __pyx_t_10 = __pyx_v_i;
-                              if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mindist2.shape[0];
                               __pyx_t_11 = (__pyx_v_dist2 < (*((double *) ( /* dim=0 */ (__pyx_v_mindist2.data + __pyx_t_10 * __pyx_v_mindist2.strides[0]) ))));
                               if (__pyx_t_11) {
 
@@ -42273,7 +41527,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
  * 
 */
                                 __pyx_t_10 = __pyx_v_i;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mindist2.shape[0];
                                 *((double *) ( /* dim=0 */ (__pyx_v_mindist2.data + __pyx_t_10 * __pyx_v_mindist2.strides[0]) )) = __pyx_v_dist2;
 
                                 /* "newanalysis/helpers/helpers.pyx":1542
@@ -42284,7 +41537,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
  *         mindist[i] = sqrt(mindist2[i])
 */
                                 __pyx_t_10 = __pyx_v_i;
-                                if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_next_id.shape[0];
                                 *((int *) ( /* dim=0 */ (__pyx_v_next_id.data + __pyx_t_10 * __pyx_v_next_id.strides[0]) )) = __pyx_v_j;
 
                                 /* "newanalysis/helpers/helpers.pyx":1540
@@ -42305,9 +41557,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
  *             minvec[i,j] = coor_surr[next_id[i],j] - coor_core[i,j]
 */
                             __pyx_t_10 = __pyx_v_i;
-                            if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_mindist2.shape[0];
                             __pyx_t_9 = __pyx_v_i;
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_mindist.shape[0];
                             *((double *) ( /* dim=0 */ (__pyx_v_mindist.data + __pyx_t_9 * __pyx_v_mindist.strides[0]) )) = sqrt((*((double *) ( /* dim=0 */ (__pyx_v_mindist2.data + __pyx_t_10 * __pyx_v_mindist2.strides[0]) ))));
 
                             /* "newanalysis/helpers/helpers.pyx":1545
@@ -42328,19 +41578,12 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_70findNearestAtom(CYTHON_UNUSED
  * @cython.boundscheck(False)
 */
                               __pyx_t_10 = __pyx_v_i;
-                              if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_next_id.shape[0];
                               __pyx_t_9 = (*((int *) ( /* dim=0 */ (__pyx_v_next_id.data + __pyx_t_10 * __pyx_v_next_id.strides[0]) )));
                               __pyx_t_8 = __pyx_v_j;
-                              if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor_surr.shape[0];
-                              if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor_surr.shape[1];
                               __pyx_t_7 = __pyx_v_i;
                               __pyx_t_12 = __pyx_v_j;
-                              if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor_core.shape[0];
-                              if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_core.shape[1];
                               __pyx_t_13 = __pyx_v_i;
                               __pyx_t_14 = __pyx_v_j;
-                              if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_minvec.shape[0];
-                              if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_minvec.shape[1];
                               *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_minvec.data + __pyx_t_13 * __pyx_v_minvec.strides[0]) ) + __pyx_t_14 * __pyx_v_minvec.strides[1]) )) = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_9 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_8 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_core.data + __pyx_t_7 * __pyx_v_coor_core.strides[0]) ) + __pyx_t_12 * __pyx_v_coor_core.strides[1]) ))));
                             }
                         }
@@ -42750,7 +41993,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
  *             for j in range(2):
 */
                             __pyx_t_12 = __pyx_v_i;
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_hbond.shape[0];
                             __pyx_t_13 = ((*((char *) ( /* dim=0 */ (__pyx_v_hbond.data + __pyx_t_12 * __pyx_v_hbond.strides[0]) ))) == 0);
                             if (__pyx_t_13) {
 
@@ -42772,7 +42014,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
  *                     idx3 = i*3
 */
                                 __pyx_t_12 = __pyx_v_i;
-                                if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_hbond.shape[0];
                                 __pyx_t_13 = ((*((char *) ( /* dim=0 */ (__pyx_v_hbond.data + __pyx_t_12 * __pyx_v_hbond.strides[0]) ))) == 0);
                                 if (__pyx_t_13) {
 
@@ -42814,7 +42055,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
  *                             for l in range(sites_per_res):
 */
                                     __pyx_t_12 = __pyx_v_i;
-                                    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_hbond.shape[0];
                                     __pyx_t_13 = ((*((char *) ( /* dim=0 */ (__pyx_v_hbond.data + __pyx_t_12 * __pyx_v_hbond.strides[0]) ))) == 0);
                                     if (__pyx_t_13) {
 
@@ -42848,12 +42088,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                         __pyx_t_12 = __pyx_v_idx2;
                                         __pyx_t_21 = 0;
-                                        if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_surr.shape[0];
-                                        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_surr.shape[1];
                                         __pyx_t_22 = __pyx_v_idx;
                                         __pyx_t_23 = 0;
-                                        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_oh2.shape[0];
-                                        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_oh2.shape[1];
                                         __pyx_v_dx = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_12 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_21 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_22 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_23 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                         /* "newanalysis/helpers/helpers.pyx":1575
@@ -42865,12 +42101,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                         __pyx_t_23 = __pyx_v_idx2;
                                         __pyx_t_22 = 1;
-                                        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_surr.shape[0];
-                                        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_surr.shape[1];
                                         __pyx_t_21 = __pyx_v_idx;
                                         __pyx_t_12 = 1;
-                                        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_oh2.shape[0];
-                                        if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_oh2.shape[1];
                                         __pyx_v_dy = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_23 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_22 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_21 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_12 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                         /* "newanalysis/helpers/helpers.pyx":1576
@@ -42882,12 +42114,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                         __pyx_t_12 = __pyx_v_idx2;
                                         __pyx_t_21 = 2;
-                                        if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_surr.shape[0];
-                                        if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_surr.shape[1];
                                         __pyx_t_22 = __pyx_v_idx;
                                         __pyx_t_23 = 2;
-                                        if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_oh2.shape[0];
-                                        if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_oh2.shape[1];
                                         __pyx_v_dz = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_surr.data + __pyx_t_12 * __pyx_v_coor_surr.strides[0]) ) + __pyx_t_21 * __pyx_v_coor_surr.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_22 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_23 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                         /* "newanalysis/helpers/helpers.pyx":1577
@@ -42927,12 +42155,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                           __pyx_t_23 = __pyx_v_idx3;
                                           __pyx_t_22 = 0;
-                                          if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_t_21 = __pyx_v_idx;
                                           __pyx_t_12 = 0;
-                                          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_v_dx2 = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_23 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_22 * __pyx_v_coor_oh2.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_21 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_12 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                           /* "newanalysis/helpers/helpers.pyx":1581
@@ -42944,12 +42168,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                           __pyx_t_12 = __pyx_v_idx3;
                                           __pyx_t_21 = 1;
-                                          if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_t_22 = __pyx_v_idx;
                                           __pyx_t_23 = 1;
-                                          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_v_dy2 = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_12 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_21 * __pyx_v_coor_oh2.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_22 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_23 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                           /* "newanalysis/helpers/helpers.pyx":1582
@@ -42961,12 +42181,8 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
 */
                                           __pyx_t_23 = __pyx_v_idx3;
                                           __pyx_t_22 = 2;
-                                          if (__pyx_t_23 < 0) __pyx_t_23 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_22 < 0) __pyx_t_22 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_t_21 = __pyx_v_idx;
                                           __pyx_t_12 = 2;
-                                          if (__pyx_t_21 < 0) __pyx_t_21 += __pyx_v_coor_oh2.shape[0];
-                                          if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor_oh2.shape[1];
                                           __pyx_v_dz2 = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_23 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_22 * __pyx_v_coor_oh2.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor_oh2.data + __pyx_t_21 * __pyx_v_coor_oh2.strides[0]) ) + __pyx_t_12 * __pyx_v_coor_oh2.strides[1]) ))));
 
                                           /* "newanalysis/helpers/helpers.pyx":1583
@@ -43022,7 +42238,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
  *     return np.asarray(hbond)
 */
                                             __pyx_t_12 = __pyx_v_i;
-                                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_hbond.shape[0];
                                             *((char *) ( /* dim=0 */ (__pyx_v_hbond.data + __pyx_t_12 * __pyx_v_hbond.strides[0]) )) = 1;
 
                                             /* "newanalysis/helpers/helpers.pyx":1586
@@ -43096,7 +42311,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_72checkHBond(CYTHON_UNUSED PyOb
                             goto __pyx_L21;
                             __pyx_L21:;
                             #ifdef _OPENMP
-                            #pragma omp critical(__pyx_parallel_lastprivates6)
+                            #pragma omp critical(__pyx_parallel_lastprivates9)
                             #endif /* _OPENMP */
                             {
                                 __pyx_parallel_temp0 = __pyx_v_cosine;
@@ -43479,28 +42694,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_74sphHarmMatrix(CYTHON_UNUSED P
 */
     __pyx_t_4 = __pyx_v_i;
     __pyx_t_5 = 0;
-    if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_coor.shape[0];
-    if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[1];
     __pyx_t_6 = __pyx_v_i;
     __pyx_t_7 = 0;
-    if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_coor.shape[0];
-    if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor.shape[1];
     __pyx_t_8 = __pyx_v_i;
     __pyx_t_9 = 1;
-    if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor.shape[0];
-    if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[1];
     __pyx_t_10 = __pyx_v_i;
     __pyx_t_11 = 1;
-    if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-    if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
     __pyx_t_12 = __pyx_v_i;
     __pyx_t_13 = 2;
-    if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[0];
-    if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[1];
     __pyx_t_14 = __pyx_v_i;
     __pyx_t_15 = 2;
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
     __pyx_v_r = sqrt(((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_4 * __pyx_v_coor.strides[0]) ) + __pyx_t_5 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_6 * __pyx_v_coor.strides[0]) ) + __pyx_t_7 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_8 * __pyx_v_coor.strides[0]) ) + __pyx_t_9 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_12 * __pyx_v_coor.strides[0]) ) + __pyx_t_13 * __pyx_v_coor.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) ))))));
 
     /* "newanalysis/helpers/helpers.pyx":1598
@@ -43518,8 +42721,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_74sphHarmMatrix(CYTHON_UNUSED P
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_14 = 2;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
     __pyx_t_20 = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) )));
     if (unlikely(__pyx_v_r == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");
@@ -43567,14 +42768,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_74sphHarmMatrix(CYTHON_UNUSED P
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_14 = __pyx_v_i;
     __pyx_t_15 = 1;
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
     __pyx_t_18 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) )))); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 1599, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __pyx_t_15 = __pyx_v_i;
     __pyx_t_14 = 0;
-    if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-    if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
     __pyx_t_22 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) )))); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 1599, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_22);
     __pyx_t_21 = 1;
@@ -43781,8 +42978,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_74sphHarmMatrix(CYTHON_UNUSED P
             __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
             __pyx_t_14 = ((2 * __pyx_v_l1) + __pyx_v_m1);
             __pyx_t_15 = ((2 * __pyx_v_l2) + __pyx_v_m2);
-            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_y_mat.shape[0];
-            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_y_mat.shape[1];
             *((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_y_mat.data + __pyx_t_14 * __pyx_v_y_mat.strides[0]) ) + __pyx_t_15 * __pyx_v_y_mat.strides[1]) )) += __pyx_t_41;
           }
         }
@@ -43972,9 +43167,7 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
  *     cdef double laplace_im = 0.0
 */
   __pyx_t_1 = 1;
-  if (__pyx_t_1 < 0) __pyx_t_1 += __pyx_v_data_x.shape[0];
   __pyx_t_2 = 0;
-  if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_data_x.shape[0];
   __pyx_v_dt = ((*((double *) ( /* dim=0 */ (__pyx_v_data_x.data + __pyx_t_1 * __pyx_v_data_x.strides[0]) ))) - (*((double *) ( /* dim=0 */ (__pyx_v_data_x.data + __pyx_t_2 * __pyx_v_data_x.strides[0]) ))));
 
   /* "newanalysis/helpers/helpers.pyx":1613
@@ -44100,7 +43293,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
  * 
 */
                             __pyx_t_2 = __pyx_v_i;
-                            if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_data_x.shape[0];
                             __pyx_v_wt = (__pyx_v_w * (*((double *) ( /* dim=0 */ (__pyx_v_data_x.data + __pyx_t_2 * __pyx_v_data_x.strides[0]) ))));
 
                             /* "newanalysis/helpers/helpers.pyx":1621
@@ -44111,7 +43303,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
  *         transform[i,0] = (cos(wt)*data_y[i] + cos(wt1)*data_y[i+1])*0.5*dt
 */
                             __pyx_t_2 = (__pyx_v_i + 1);
-                            if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_data_x.shape[0];
                             __pyx_v_wt1 = (__pyx_v_w * (*((double *) ( /* dim=0 */ (__pyx_v_data_x.data + __pyx_t_2 * __pyx_v_data_x.strides[0]) ))));
 
                             /* "newanalysis/helpers/helpers.pyx":1623
@@ -44122,13 +43313,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
  * 
 */
                             __pyx_t_2 = __pyx_v_i;
-                            if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_data_y.shape[0];
                             __pyx_t_1 = (__pyx_v_i + 1);
-                            if (__pyx_t_1 < 0) __pyx_t_1 += __pyx_v_data_y.shape[0];
                             __pyx_t_13 = __pyx_v_i;
                             __pyx_t_14 = 0;
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_transform.shape[0];
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_transform.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_transform.data + __pyx_t_13 * __pyx_v_transform.strides[0]) ) + __pyx_t_14 * __pyx_v_transform.strides[1]) )) = ((((cos(__pyx_v_wt) * (*((double *) ( /* dim=0 */ (__pyx_v_data_y.data + __pyx_t_2 * __pyx_v_data_y.strides[0]) )))) + (cos(__pyx_v_wt1) * (*((double *) ( /* dim=0 */ (__pyx_v_data_y.data + __pyx_t_1 * __pyx_v_data_y.strides[0]) ))))) * 0.5) * __pyx_v_dt);
 
                             /* "newanalysis/helpers/helpers.pyx":1624
@@ -44139,13 +43326,9 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
  *     for i in range(n):
 */
                             __pyx_t_1 = __pyx_v_i;
-                            if (__pyx_t_1 < 0) __pyx_t_1 += __pyx_v_data_y.shape[0];
                             __pyx_t_2 = (__pyx_v_i + 1);
-                            if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_data_y.shape[0];
                             __pyx_t_14 = __pyx_v_i;
                             __pyx_t_13 = 1;
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_transform.shape[0];
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_transform.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_transform.data + __pyx_t_14 * __pyx_v_transform.strides[0]) ) + __pyx_t_13 * __pyx_v_transform.strides[1]) )) = ((((sin(__pyx_v_wt) * (*((double *) ( /* dim=0 */ (__pyx_v_data_y.data + __pyx_t_1 * __pyx_v_data_y.strides[0]) )))) + (sin(__pyx_v_wt1) * (*((double *) ( /* dim=0 */ (__pyx_v_data_y.data + __pyx_t_2 * __pyx_v_data_y.strides[0]) ))))) * 0.5) * __pyx_v_dt);
                         }
                     }
@@ -44198,8 +43381,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
 */
     __pyx_t_2 = __pyx_v_i;
     __pyx_t_1 = 0;
-    if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_transform.shape[0];
-    if (__pyx_t_1 < 0) __pyx_t_1 += __pyx_v_transform.shape[1];
     __pyx_v_laplace_re = (__pyx_v_laplace_re + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_transform.data + __pyx_t_2 * __pyx_v_transform.strides[0]) ) + __pyx_t_1 * __pyx_v_transform.strides[1]) ))));
 
     /* "newanalysis/helpers/helpers.pyx":1628
@@ -44211,8 +43392,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_76calcFourierLaplaceTransform(C
 */
     __pyx_t_1 = __pyx_v_i;
     __pyx_t_2 = 1;
-    if (__pyx_t_1 < 0) __pyx_t_1 += __pyx_v_transform.shape[0];
-    if (__pyx_t_2 < 0) __pyx_t_2 += __pyx_v_transform.shape[1];
     __pyx_v_laplace_im = (__pyx_v_laplace_im + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_transform.data + __pyx_t_1 * __pyx_v_transform.strides[0]) ) + __pyx_t_2 * __pyx_v_transform.strides[1]) ))));
   }
 
@@ -44440,16 +43619,10 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_78calcRotationMatrix(CYTHON_UNU
 */
   __pyx_t_7 = 0;
   __pyx_t_8 = 0;
-  if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_R.shape[0];
-  if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_R.shape[1];
   __pyx_t_9 = 0;
   __pyx_t_10 = 0;
-  if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coorA.shape[0];
-  if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coorA.shape[1];
   __pyx_t_11 = 0;
   __pyx_t_12 = 0;
-  if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coorB.shape[0];
-  if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coorB.shape[1];
   GetRotation((&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_7 * __pyx_v_R.strides[0]) ) + __pyx_t_8 * __pyx_v_R.strides[1]) )))), (__pyx_v_coorA.shape[0]), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorA.data + __pyx_t_9 * __pyx_v_coorA.strides[0]) ) + __pyx_t_10 * __pyx_v_coorA.strides[1]) )))), (&(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coorB.data + __pyx_t_11 * __pyx_v_coorB.strides[0]) ) + __pyx_t_12 * __pyx_v_coorB.strides[1]) )))), 0);
 
   /* "newanalysis/helpers/helpers.pyx":1648
@@ -44705,28 +43878,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_4 = 0;
                             __pyx_t_5 = 0;
-                            if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_R.shape[0];
-                            if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_R.shape[1];
                             __pyx_t_6 = __pyx_v_i;
                             __pyx_t_7 = 0;
-                            if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor.shape[1];
                             __pyx_t_8 = 0;
                             __pyx_t_9 = 1;
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_R.shape[0];
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_R.shape[1];
                             __pyx_t_10 = __pyx_v_i;
                             __pyx_t_11 = 1;
-                            if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
                             __pyx_t_12 = 0;
                             __pyx_t_13 = 2;
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_R.shape[0];
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_R.shape[1];
                             __pyx_t_14 = __pyx_v_i;
                             __pyx_t_15 = 2;
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpx = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_4 * __pyx_v_R.strides[0]) ) + __pyx_t_5 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_6 * __pyx_v_coor.strides[0]) ) + __pyx_t_7 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_8 * __pyx_v_R.strides[0]) ) + __pyx_t_9 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_12 * __pyx_v_R.strides[0]) ) + __pyx_t_13 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":1668
@@ -44738,28 +43899,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_15 = 1;
                             __pyx_t_14 = 0;
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_R.shape[0];
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_R.shape[1];
                             __pyx_t_13 = __pyx_v_i;
                             __pyx_t_12 = 0;
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_coor.shape[1];
                             __pyx_t_11 = 1;
                             __pyx_t_10 = 1;
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_R.shape[0];
-                            if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_R.shape[1];
                             __pyx_t_9 = __pyx_v_i;
                             __pyx_t_8 = 1;
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_coor.shape[1];
                             __pyx_t_7 = 1;
                             __pyx_t_6 = 2;
-                            if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_R.shape[0];
-                            if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_R.shape[1];
                             __pyx_t_5 = __pyx_v_i;
                             __pyx_t_4 = 2;
-                            if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpy = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_15 * __pyx_v_R.strides[0]) ) + __pyx_t_14 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_13 * __pyx_v_coor.strides[0]) ) + __pyx_t_12 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_11 * __pyx_v_R.strides[0]) ) + __pyx_t_10 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_9 * __pyx_v_coor.strides[0]) ) + __pyx_t_8 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_7 * __pyx_v_R.strides[0]) ) + __pyx_t_6 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_5 * __pyx_v_coor.strides[0]) ) + __pyx_t_4 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":1669
@@ -44771,28 +43920,16 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_4 = 2;
                             __pyx_t_5 = 0;
-                            if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_v_R.shape[0];
-                            if (__pyx_t_5 < 0) __pyx_t_5 += __pyx_v_R.shape[1];
                             __pyx_t_6 = __pyx_v_i;
                             __pyx_t_7 = 0;
-                            if (__pyx_t_6 < 0) __pyx_t_6 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_7 < 0) __pyx_t_7 += __pyx_v_coor.shape[1];
                             __pyx_t_8 = 2;
                             __pyx_t_9 = 1;
-                            if (__pyx_t_8 < 0) __pyx_t_8 += __pyx_v_R.shape[0];
-                            if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_v_R.shape[1];
                             __pyx_t_10 = __pyx_v_i;
                             __pyx_t_11 = 1;
-                            if (__pyx_t_10 < 0) __pyx_t_10 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_11 < 0) __pyx_t_11 += __pyx_v_coor.shape[1];
                             __pyx_t_12 = 2;
                             __pyx_t_13 = 2;
-                            if (__pyx_t_12 < 0) __pyx_t_12 += __pyx_v_R.shape[0];
-                            if (__pyx_t_13 < 0) __pyx_t_13 += __pyx_v_R.shape[1];
                             __pyx_t_14 = __pyx_v_i;
                             __pyx_t_15 = 2;
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                             __pyx_v_tmpz = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_4 * __pyx_v_R.strides[0]) ) + __pyx_t_5 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_6 * __pyx_v_coor.strides[0]) ) + __pyx_t_7 * __pyx_v_coor.strides[1]) )))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_8 * __pyx_v_R.strides[0]) ) + __pyx_t_9 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_10 * __pyx_v_coor.strides[0]) ) + __pyx_t_11 * __pyx_v_coor.strides[1]) ))))) + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_R.data + __pyx_t_12 * __pyx_v_R.strides[0]) ) + __pyx_t_13 * __pyx_v_R.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) )))));
 
                             /* "newanalysis/helpers/helpers.pyx":1670
@@ -44804,8 +43941,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_15 = __pyx_v_i;
                             __pyx_t_14 = 0;
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpx;
 
                             /* "newanalysis/helpers/helpers.pyx":1671
@@ -44816,8 +43951,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_14 = __pyx_v_i;
                             __pyx_t_15 = 1;
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_14 * __pyx_v_coor.strides[0]) ) + __pyx_t_15 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpy;
 
                             /* "newanalysis/helpers/helpers.pyx":1672
@@ -44827,8 +43960,6 @@ static PyObject *__pyx_pf_11newanalysis_7helpers_80applyRotationMatrix(CYTHON_UN
 */
                             __pyx_t_15 = __pyx_v_i;
                             __pyx_t_14 = 2;
-                            if (__pyx_t_15 < 0) __pyx_t_15 += __pyx_v_coor.shape[0];
-                            if (__pyx_t_14 < 0) __pyx_t_14 += __pyx_v_coor.shape[1];
                             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_coor.data + __pyx_t_15 * __pyx_v_coor.strides[0]) ) + __pyx_t_14 * __pyx_v_coor.strides[1]) )) = __pyx_v_tmpz;
                         }
                     }
