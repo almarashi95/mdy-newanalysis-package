@@ -1,0 +1,16 @@
+# environment-linux.yml
+name: newanalysis-pre_comp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - setuptools>=68
+  - wheel
+  - cython>=3.0.10
+  - numpy>=2.2
+  - fftw>=3.3
+  - voro++=0.4.6
+  - pkg-config
+  - compilers          # gcc/gxx/gfortran
+
